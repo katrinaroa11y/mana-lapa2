@@ -1,20 +1,56 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+export interface ServiceItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  tag: string;
+  duration: string;
+  format: string;
+  description: string;
+  benefitsTitle?: string;
+  benefits: string[];
+  price: string;
+  recommendedFor: string;
+}
 
-# Run and deploy your AI Studio app
+export interface CertificateInfo {
+  title?: string;
+  number?: string;
+  year?: string;
+}
 
-This contains everything you need to run your app locally.
+export interface ApproachMethod {
+  id: string;
+  title: string;
+  shortDesc: string;
+  description: string;
+  iconName: string;
+  tag: string;
+  certificate?: CertificateInfo;
+  certificates?: CertificateInfo[];
+}
 
-View your app in AI Studio: https://ai.studio/apps/a58a7c83-ea24-498f-bedf-f97c04bd5289
+export interface FaqItem {
+  id: string;
+  question: string;
+  answer: string;
+  category?: string;
+}
 
-## Run Locally
+export interface WorkTopic {
+  id: string;
+  title: string;
+  description: string;
+  iconName?: string;
+}
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+export interface BookingFormData {
+  serviceId: string;
+  format: 'klatiene' | 'tiessaiste';
+  date: string;
+  timeSlot: string;
+  fullName: string;
+  email: string;
+  phone: string;
+  message?: string;
+  agreedToTerms: boolean;
+}
