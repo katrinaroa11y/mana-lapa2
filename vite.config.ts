@@ -1,32 +1,22 @@
-import React from 'react';
+import tailwindcss from '@tailwindcss/vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+import {defineConfig} from 'vite';
 
-export function renderFormattedText(text: string): React.ReactNode {
-  if (!text) return text;
-  const parts = text.split(/(\*\*.*?\*\*|<strong>.*?<\/strong>|<b>.*?<\/b>)/g);
-  if (parts.length === 1) return text;
-
-  return parts.map((part, index) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
-      return (
-        <strong key={index} className="font-semibold text-[#3E4950]">
-          {part.slice(2, -2)}
-        </strong>
-      );
-    }
-    if (part.startsWith('<strong>') && part.endsWith('</strong>')) {
-      return (
-        <strong key={index} className="font-semibold text-[#3E4950]">
-          {part.slice(8, -9)}
-        </strong>
-      );
-    }
-    if (part.startsWith('<b>') && part.endsWith('</b>')) {
-      return (
-        <strong key={index} className="font-semibold text-[#3E4950]">
-          {part.slice(3, -4)}
-        </strong>
-      );
-    }
-    return part;
-  });
-}
+export default defineConfig(() => {
+  return {
+    plugins: [react(), tailwindcss()],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      },
+    },
+    server: {
+      // HMR is disabled in AI Studio via DISABLE_HMR env var.
+      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      hmr: process.env.DISABLE_HMR !== 'true',
+      // Disable file watching when DISABLE_HMR is true to save CPU during agent edits.
+      watch: process.env.DISABLE_HMR === 'true' ? null : {},
+    },
+  };
+});
