@@ -65,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
       {/* Background Image Container with Soft Ambient Overlay */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img
-          src="/src/assets/images/calming_hero_bg_1785157949576.jpg"
+          src="/calming_hero_bg_1785157949576.jpg"
           alt="Mierīgs un atbalstošs fons"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover opacity-25 scale-105 transform transition-transform duration-1000"
