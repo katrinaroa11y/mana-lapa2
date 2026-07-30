@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Calendar, ArrowDown, ShieldCheck, HeartHandshake, Award } from 'lucide-react';
 
-const DEFAULT_PORTRAIT = '/src/assets/images/katrina_portrait_new_1785158518562.jpg';
+const DEFAULT_PORTRAIT = '/katrina_portrait_new_1785158518562.jpg';
 const STORAGE_KEY = 'katrina_custom_hero_portrait';
 const POSITION_STORAGE_KEY = 'katrina_hero_portrait_position_v1';
 
