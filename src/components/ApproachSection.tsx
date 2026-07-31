@@ -12,17 +12,7 @@ const DEFAULT_QUOTE = `Pārmaiņu un izaugsmes ceļš bieži norit klusumā, cit
 const DEFAULT_QUOTE_AUTHOR = `Katrīna Rozenbaha, reģistrēta klīniskā psiholoģe`;
 
 export const ApproachSection: React.FC = () => {
-  const [methods] = useState<ApproachMethod[]>(() => {
-    try {
-      const saved = localStorage.getItem(METHODS_STORAGE_KEY);
-      if (saved) {
-        return JSON.parse(saved);
-      }
-    } catch (e) {
-      console.error('Kļūda ielādējot metodes no localStorage:', e);
-    }
-    return APPROACH_METHODS;
-  });
+const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
 
   const [quoteText] = useState<string>(() => {
     try {
