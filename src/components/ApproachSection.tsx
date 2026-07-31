@@ -8,8 +8,8 @@ import { renderFormattedText } from '../utils/formatText';
 const METHODS_STORAGE_KEY = 'katrina_approach_methods_v6';
 const QUOTE_STORAGE_KEY = 'katrina_approach_quote_v1';
 
-const DEFAULT_QUOTE = `Pārmaiņu un izaugsmes ceļš bieži norit klusumā, citiem to nemanot. Lielākās dzīves pārmaiņas reti būs kā skaļa Jaungada uguņošana, tās drīzāk ir kā lēna, pakāpeniska svecīšu rindas iedegšana - iededzot katru nākamo sveces liesmu ar iepriekšējo. Jo izvēloties pārmaiņu ceļu, katrs mazais solis rada nākamo, soli pa solim atverot durvis pilnīgi jaunām iespējām.`;
-const DEFAULT_QUOTE_AUTHOR = `Katrīna Rozenbaha, reģistrēta klīniskā psiholoģe`;
+const DEFAULT_QUOTE = `Lielākās pārmaiņas reti ir kā skaļa uguņošana, tās bieži norit klusumā. Katrs mazais solis ir kā lēna sveces liesmas nodošana nākamajai, pamazām piepildot istabu ar gaismu un atverot durvis jaunām iespējām.`;
+const DEFAULT_QUOTE_AUTHOR = `Katrīna Rozenbaha`;
 
 export const ApproachSection: React.FC = () => {
 const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
