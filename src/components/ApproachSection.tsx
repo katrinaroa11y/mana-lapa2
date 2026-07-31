@@ -5,7 +5,7 @@ import { ApproachMethod, CertificateInfo } from '../types';
 import { Brain, Layers, Compass, ShieldCheck, Lock, Heart, Award } from 'lucide-react';
 import { renderFormattedText } from '../utils/formatText';
 
-const METHODS_STORAGE_KEY = 'katrina_approach_methods_v5';
+const METHODS_STORAGE_KEY = 'katrina_approach_methods_v6';
 const QUOTE_STORAGE_KEY = 'katrina_approach_quote_v1';
 
 const DEFAULT_QUOTE = `Pārmaiņu un izaugsmes ceļš bieži norit klusumā, citiem to nemanot. Lielākās dzīves pārmaiņas reti būs kā skaļa Jaungada uguņošana, tās drīzāk ir kā lēna, pakāpeniska svecīšu rindas iedegšana - iededzot katru nākamo sveces liesmu ar iepriekšējo. Jo izvēloties pārmaiņu ceļu, katrs mazais solis rada nākamo, soli pa solim atverot durvis pilnīgi jaunām iespējām.`;
