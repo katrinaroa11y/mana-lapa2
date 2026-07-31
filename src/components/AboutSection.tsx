@@ -4,7 +4,7 @@ import { Award } from 'lucide-react';
 import { PRACTICE_INFO } from '../data/practiceData';
 import { renderFormattedText } from '../utils/formatText';
 
-const DEFAULT_PORTRAIT = '/src/assets/images/katrina_portrait_new_1785158518562.jpg';
+const DEFAULT_PORTRAIT = '/katrina.png';
 const STORAGE_KEY = 'katrina_custom_about_portrait';
 const TEXT_STORAGE_KEY = 'katrina_about_text_v2';
 
