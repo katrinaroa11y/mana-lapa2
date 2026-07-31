@@ -130,7 +130,19 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     shortDesc: 'Visaptveroša psiholoģijas izglītība, kas ļauj izprast cilvēka emocionālās veselības traucējumu cēloņus un sekas.',
     description: 'Nodrošina strukturētu, ētisku un pētījumos balstītu pieeju ikvienā konsultācijā, apvienojot klasiskās psiholoģijas teorijas ar mūsdienīgu, praktisku pieeju.',
     iconName: 'ShieldCheck',
-    tag: 'Izglītība'
+    tag: 'Izglītība',
+    certificates: [
+      {
+        title: 'Maģistrs psiholoģijā, Bonnas Universitāte',
+        number: '',
+        year: '2020-2023'
+      },
+      {
+        title: 'Bakalaurs psiholoģijā, Latvijas Universitāte',
+        number: '',
+        year: '2017-2020'
+      }
+    ]
   }
 ];
 
