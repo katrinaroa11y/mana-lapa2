@@ -95,19 +95,19 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     tag: 'Iekšējais līdzsvars',
     certificates: [
       {
-        title: 'Shēmu terapijas sertifikāts',
-        number: 'Nr. ST-2024/12',
-        year: '2024'
-      },
-      {
-        title: 'Shēmu terapijas tālākaizglītība un apmācības',
+        title: 'Apmācības: Attiecību izaicinājumu pārvarēšana un Veselā pieaugušā stiprināšana shēmu terapijā',
         number: '',
-        year: '2024'
+        year: '2026'
       },
       {
-        title: 'Shēmu terapijas prakses modulis',
+        title: 'Apmācības: Darbs ar krēsliem shēmu terapijā',
         number: '',
         year: '2025'
+      },
+      {
+        title: 'Shēmu terapijas bāzes līmeņa apmācības',
+        number: '',
+        year: '2024'
       }
     ]
   },
@@ -119,9 +119,9 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     iconName: 'Compass',
     tag: 'Attīstība',
     certificate: {
-      title: 'Motivējošās intervēšanas sertifikāts',
-      number: 'Nr. MI-2023/08',
-      year: '2023'
+      title: 'Intervijas konsultēšanas praksē: Motivējošā intervēšana',
+      number: '',
+      year: '2025'
     }
   },
   {
