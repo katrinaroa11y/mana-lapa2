@@ -208,7 +208,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
           <div className="flex items-center justify-center space-x-3 p-3 rounded-2xl bg-[#FFFFFF]/60 backdrop-blur-xs border border-[#E8E1D8]/50">
             <HeartHandshake className="w-5 h-5 text-[#8BA983] shrink-0" />
             <span className="text-xs sm:text-sm text-[#5E6A71] font-medium text-left">
-              1000+ konsultētu cilvēku
+              Individuāla pieeja
             </span>
           </div>
         </motion.div>
