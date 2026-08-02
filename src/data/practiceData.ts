@@ -123,11 +123,10 @@ export const APPROACH_METHODS: ApproachMethod[] = [
   },
   {
     id: 'trauma-informed',
-    title: 'Augstākā Izglītība Psiholoģijā',
+    title: '**Augstākā Izglītība Psiholoģijā**',
     shortDesc: 'Visaptveroša psiholoģijas izglītība, kas ļauj izprast cilvēka emocionālās veselības traucējumu cēloņus un sekas.',
     description: 'Nodrošina strukturētu, ētisku un pētījumos balstītu pieeju ikvienā konsultācijā, apvienojot klasiskās psiholoģijas teorijas ar mūsdienīgu, praktisku pieeju.',
     iconName: 'ShieldCheck',
-    tag: 'Izglītība',
     certificates: [
       {
         title: 'Maģistrs psiholoģijā, Bonnas Universitāte',
