@@ -79,7 +79,6 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     shortDesc: 'Acu kustību desensibilizācija un pārapstrāde traumu un emocionālu bloku risināšanai.',
     description: 'Zinātniski pierādīta metode, kas ar abpusēju stimulāciju palīdz smadzenēm dabiskā veidā pārstrādāt iestrēgušas atmiņas un samazināt to emocionālo trauksmi.',
     iconName: 'Brain',
-    tag: 'Pārstrāde',
     certificate: {
       title: 'EMDR bāzes 1. līmeņa apmācības',
       number: '',
@@ -92,7 +91,6 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     shortDesc: 'Padziļināta uzvedības un domāšanas modeļu atpazīšana un transformācija.',
     description: 'Palīdz izprast, kāpēc atkal un atkal nonākam līdzīgās konfliktējošās situācijās vai iekšējos pārdzīvojumos, un ļauj apgūt kā pašam apmierināt savas vajadzības un kā uzlabot attiecības ar sevi un apkārtējiem cilvēkiem.',
     iconName: 'Layers',
-    tag: 'Iekšējais līdzsvars',
     certificates: [
       {
         title: 'Apmācības: Attiecību izaicinājumu pārvarēšana un Veselā pieaugušā stiprināšana shēmu terapijā',
@@ -115,9 +113,8 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     id: 'motivational',
     title: 'Motivējošā Intervēšana',
     shortDesc: 'Iekšējās motivācijas stiprināšana un apzinātu pārmaiņu veicināšana.',
-    description: 'Motivējošā intervēšana ir pierādījumos balstīta psiholoģiskās konsultēšanas metode, kas palīdz pārvarēt iekšējās šaubas, vilcināšanos un ambivalenci. Tā ir vērsta uz to, lai Tu pats atklātu savus patiesos iemeslus, vērtības un iekšējos resursus rīcībai. Tā vietā, lai sniegtu gatavas receptes, konsultāciju laikā mēs veidojam skaidru rīcības plānu, kas balstīts Tāvā personīgajā pārliecībā.\n\nŠī pieeja ir īpaši efektīva un plaši lietota uzvedības izmaiņām, kaitīgo ieradumu un atkarību pārvarēšanai (azartspēļu, alkohola, cigarešu, narkotisko vielu, t.sk. marihuānas, un citas), kā arī veselīgāku dzīvesveida izvēļu nostiprināšanai. Psihologa atbalsts padara pārmaiņu procesu saprotamāku, ilgtspējīgāku un mazāk stresainu.',
+    description: 'Motivējošā intervēšana palīdz pārvarēt iekšējās šaubas, vilcināšanos un pretrunas, lai tiektos uz veselīgākiem paradumiem un/ vai atkarības pārvarēšanu. Procesā palīdzu apzināties vērtības, iekšējo motivāciju un apkārtējos resursus rīcībai.\n\nŠī pieeja ir īpaši efektīva un plaši lietota uzvedības izmaiņām, kaitīgo ieradumu un atkarību pārvarēšanai (azartspēļu, alkohola, cigarešu, narkotisko vielu, t.sk. marihuānas, un citas). Psihologa atbalsts padara pārmaiņu procesu saprotamāku, ilgtspējīgāku un mazāk stresainu.',
     iconName: 'Compass',
-    tag: 'Attīstība',
     certificate: {
       title: 'Intervijas konsultēšanas praksē: Motivējošā intervēšana',
       number: '',
