@@ -6,7 +6,7 @@ import { renderFormattedText } from '../utils/formatText';
 
 const DEFAULT_PORTRAIT = '/katrina.png';
 const STORAGE_KEY = 'katrina_custom_about_portrait';
-const TEXT_STORAGE_KEY = 'katrina_about_text_v2';
+const TEXT_STORAGE_KEY = 'katrina_about_text_v3';
 
 const DEFAULT_ABOUT_TEXT = `**Mani sauc Katrīna Rozenbaha**, un es esmu **reģistrēta klīniskā psiholoģe**. Savā praksē esmu sniegusi atbalstu **vairāk nekā 1000 cilvēkiem**, konsultējot individuāli un vadot izglītojošas lekcijas par mentālo veselību un personīgo izaugsmi.
 
