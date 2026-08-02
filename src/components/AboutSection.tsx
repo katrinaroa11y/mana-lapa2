@@ -21,14 +21,7 @@ Savā darbā ievēroju **traumas informētu pieeju**. Tas nozīmē, ka izprotu p
 export const AboutSection: React.FC = () => {
   const [portraitSrc, setPortraitSrc] = useState<string>(DEFAULT_PORTRAIT);
 
-  const [aboutText] = useState<string>(() => {
-    try {
-      const saved = localStorage.getItem(TEXT_STORAGE_KEY);
-    } catch (e) {
-      console.error('Kļūda ielādējot Par mani tekstu:', e);
-    }
-    return DEFAULT_ABOUT_TEXT;
-  });
+const [aboutText] = useState<string>(() => DEFAULT_ABOUT_TEXT);
 
   useEffect(() => {
     const updateFromStorage = () => {
