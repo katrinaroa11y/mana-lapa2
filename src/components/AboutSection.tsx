@@ -128,10 +128,24 @@ export const AboutSection: React.FC = () => {
             {/* Formatted Text Paragraphs */}
             <div className="space-y-4 text-base sm:text-lg leading-relaxed text-[#5E6A71]">
               {paragraphs.map((para, idx) => (
-                <p key={idx}>
-                  {renderFormattedText(para)}
-                </p>
-              ))}
+  <p key={idx}>
+    {idx === 4 ? (
+      <>
+        Konsultācijās izmantoju{" "}
+        <strong>zinātniski pamatotas metodes</strong>, par to vairāk lasi{" "}
+        <a
+          href="#metodes-un-izglitiba"
+          className="text-[#8BA983] underline hover:text-[#6F8F67]"
+        >
+          šeit
+        </a>
+        . Es ticu, ka vislabākā konsultēšana būs tā, kura ir pielāgota katra cilvēka unikālajai pieredzei un vajadzībām.
+      </>
+    ) : (
+      renderFormattedText(para)
+    )}
+  </p>
+))}
             </div>
           </motion.div>
 
