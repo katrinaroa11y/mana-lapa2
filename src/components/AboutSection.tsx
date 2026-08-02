@@ -134,7 +134,7 @@ export const AboutSection: React.FC = () => {
         Konsultācijās izmantoju{" "}
         <strong>zinātniski pamatotas metodes</strong>, par to vairāk lasi{" "}
         <a
-          href="#metodes-un-izglitiba"
+          href="#pieeja"
           className="text-[#8BA983] underline hover:text-[#6F8F67]"
         >
           šeit
