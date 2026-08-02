@@ -70,22 +70,50 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
   const selectedService = BOOKABLE_SERVICES.find((s) => s.id === formData.serviceId) || BOOKABLE_SERVICES[0];
 
-  const handleNextStep = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (step === 3 && isWeekendSelected(formData.date)) {
-      return;
+  const handleNextStep = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (step === 3 && isWeekendSelected(formData.date)) {
+    return;
+  }
+
+  if (step < 4) {
+    setStep(step + 1);
+    return;
+  }
+
+  // Nosūta pieteikumu uz Vercel API
+  setIsSubmitting(true);
+
+  try {
+    const response = await fetch('/api/booking', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        ...formData,
+        serviceName: selectedService.title,
+      }),
+    });
+
+    if (!response.ok) {
+      throw new Error('Pieteikuma nosūtīšana neizdevās');
     }
-    if (step < 4) {
-      setStep(step + 1);
-    } else {
-      // Final Submit
-      setIsSubmitting(true);
-      setTimeout(() => {
-        setIsSubmitting(false);
-        setIsSubmitted(true);
-      }, 1000);
-    }
-  };
+
+    setIsSubmitting(false);
+    setIsSubmitted(true);
+
+  } catch (error) {
+    console.error('Booking error:', error);
+
+    setIsSubmitting(false);
+
+    alert(
+      'Neizdevās nosūtīt pieteikumu. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mani telefoniski (tel. nr. +371 27572910).'
+    );
+  }
+};
 
   const resetForm = () => {
     setStep(1);
