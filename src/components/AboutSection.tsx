@@ -24,7 +24,7 @@ export const AboutSection: React.FC = () => {
   const [aboutText] = useState<string>(() => {
     try {
       const saved = localStorage.getItem(TEXT_STORAGE_KEY);
-      if (saved) return saved;
+      // if (saved) return saved;
     } catch (e) {
       console.error('Kļūda ielādējot Par mani tekstu:', e);
     }
