@@ -12,6 +12,8 @@ const DEFAULT_ABOUT_TEXT = `**Mani sauc Katrīna Rozenbaha**, un es esmu **reģi
 
 Mani veidojusi ir gan starptautiskā izglītība un pieredze Vācijā, gan miers un vienkāršība, kurā esmu uzaugusi lauku viensētā Kurzemē. Šis savienojums man ļauj saglabāt augstus profesionālos standartus, vienlaikus paliekot patiesi klātesošai, empātiskai un "ar kājām uz zemes".
 
+Savā darbā ievēroju **traumas informētu pieeju**. Tas nozīmē, ka izprotu psiholoģiskās traumas ietekmi uz cilvēka emocijām, domāšanu un uzvedību, kā arī pielāgoju procesu attiecīgi. Konsultācijās izmantoju **zinātniski pamatotas metodes**. Vairāk par izmantotajām metodēm un manu izglītību lasi šeit.
+
 Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības, taču dažkārt to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam izprast notiekošo, atklāt stiprās puses un rast ceļu uz pārmaiņām.
 
 **Mans mērķis ir palīdzēt Tev labāk izprast sevi, stiprināt psiholoģisko noturību un veidot dzīvi, kurā jūties līdzsvarotāk, pašpārliecinātāk un tuvāk sev.**`;
