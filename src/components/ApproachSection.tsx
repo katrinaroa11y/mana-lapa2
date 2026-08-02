@@ -107,9 +107,11 @@ const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
                       {getIcon(method.iconName)}
                     </div>
 
-                    <span className="text-xs font-medium text-[#8BA983] bg-[#FFFFFF] px-2.5 py-1 rounded-full border border-[#E8E1D8]">
-                      {method.tag}
-                    </span>
+                   {method.tag && (
+  <span className="text-xs font-medium text-[#8BA983] bg-[#FFFFFF] px-2.5 py-1 rounded-full border border-[#E8E1D8]">
+    {method.tag}
+  </span>
+)}
                   </div>
 
                   <h3 className="font-serif text-xl font-medium text-[#3E4950] mb-2">
