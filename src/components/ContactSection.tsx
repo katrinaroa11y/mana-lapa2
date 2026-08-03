@@ -121,15 +121,7 @@ export const ContactSection: React.FC = () => {
                   Sociālie tīkli un profili
                 </span>
                 <div className="flex items-center space-x-3">
-                  <a
-                    href={PRACTICE_INFO.social.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-[#FFFFFF] border border-[#E8E1D8] flex items-center justify-center text-[#5E6A71] hover:text-[#8BA983] hover:border-[#A8C3A1] transition-all"
-                    aria-label="LinkedIn"
-                  >
-                    <Linkedin className="w-4 h-4" />
-                  </a>
+           
                   <a
                     href={PRACTICE_INFO.social.instagram}
                     target="_blank"
@@ -139,15 +131,7 @@ export const ContactSection: React.FC = () => {
                   >
                     <Instagram className="w-4 h-4" />
                   </a>
-                  <a
-                    href={PRACTICE_INFO.social.facebook}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-[#FFFFFF] border border-[#E8E1D8] flex items-center justify-center text-[#5E6A71] hover:text-[#8BA983] hover:border-[#A8C3A1] transition-all"
-                    aria-label="Facebook"
-                  >
-                    <Facebook className="w-4 h-4" />
-                  </a>
+                
                 </div>
               </div>
             </div>
