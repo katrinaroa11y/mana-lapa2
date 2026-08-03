@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { motion } from 'motion/react';
 import { PRACTICE_INFO } from '../data/practiceData';
-import { Mail, Phone, Send, CheckCircle2, Instagram, Linkedin, Facebook, Shield } from 'lucide-react';
+import { Mail, Phone, Send, CheckCircle2, Instagram, Linkedin, Facebook, Shield, Loader2 } from 'lucide-react';
 
 export const ContactSection: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -12,53 +12,53 @@ export const ContactSection: React.FC = () => {
     message: ''
   });
 
- const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
 
-  try {
-const response = await fetch('/api/booking', {
-  method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        fullName: form.name,
-        email: form.email,
-        phone: form.phone,
-        message: form.message,
-        serviceName: 'Ziņa no kontaktformas',
-        format: 'Kontaktforma',
-        date: '',
-        timeSlot: '',
-      }),
-    });
+    try {
+      const response = await fetch('/api/booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: form.name,          // Sūtām kā 'name'
+          fullName: form.name,      // Katram gadījumam sūtām arī 'fullName'
+          email: form.email,
+          phone: form.phone,
+          message: form.message,
+          serviceName: 'Ziņa no kontaktformas',
+          format: 'Kontaktforma',
+          date: '',
+          timeSlot: '',
+        }),
+      });
 
-    if (response.ok) {
-  setSubmitted(true);
+      const result = await response.json();
 
-  setForm({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-  });
-} else {
-  const result = await response.json();
-  console.error(result);
-
-  alert('Ziņas nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz.');
-}
-
-  } catch (error) {
-    console.error('Email error:', error);
-    alert('Radās kļūda nosūtot ziņu.');
-  }
-};
+      if (response.ok && (result.success || result.id)) {
+        setSubmitted(true);
+        setForm({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+        });
+      } else {
+        alert('Ziņas nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz vai sazinieties telefoniski.');
+      }
+    } catch (error) {
+      console.error('Email error:', error);
+      alert('Radās kļūda nosūtot ziņu.');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <section id="kontakti" className="py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#FFFFFF] relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
-        
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#8BA983] font-semibold mb-3">
@@ -248,10 +248,20 @@ const response = await fetch('/api/booking', {
 
                   <button
                     type="submit"
-                    className="w-full inline-flex items-center justify-center space-x-2 bg-[#A8C3A1] hover:bg-[#8BA983] text-white py-3.5 px-6 rounded-xl font-medium text-sm transition-all shadow-xs"
+                    disabled={loading}
+                    className="w-full inline-flex items-center justify-center space-x-2 bg-[#A8C3A1] hover:bg-[#8BA983] text-white py-3.5 px-6 rounded-xl font-medium text-sm transition-all shadow-xs disabled:opacity-50 cursor-pointer"
                   >
-                    <Send className="w-4 h-4" />
-                    <span>Nosūtīt ziņu</span>
+                    {loading ? (
+                      <>
+                        <Loader2 className="w-4 h-4 animate-spin" />
+                        <span>Sūta...</span>
+                      </>
+                    ) : (
+                      <>
+                        <Send className="w-4 h-4" />
+                        <span>Nosūtīt ziņu</span>
+                      </>
+                    )}
                   </button>
                 </form>
               )}
