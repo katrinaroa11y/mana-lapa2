@@ -1,6 +1,6 @@
 import React from 'react';
 import { PRACTICE_INFO } from '../data/practiceData';
-import { ShieldCheck, Heart, ArrowUp, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { ShieldCheck, Heart, ArrowUp, Instagram } from 'lucide-react';
 
 interface FooterProps {
   onOpenPrivacy: () => void;
@@ -106,15 +106,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenBooking }) 
 
             <div className="flex items-center space-x-3 pt-2">
               <a
-                href={PRACTICE_INFO.social.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full bg-[#5E6A71] text-white flex items-center justify-center hover:bg-[#A8C3A1] transition-colors"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a
                 href={PRACTICE_INFO.social.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -123,7 +114,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenBooking }) 
               >
                 <Instagram className="w-4 h-4" />
               </a>
-              
             </div>
           </div>
 
