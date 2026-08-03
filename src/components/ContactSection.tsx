@@ -33,20 +33,21 @@ const response = await fetch('/api/booking', {
       }),
     });
 
-    const result = await response.json();
+    if (response.ok) {
+  setSubmitted(true);
 
-    if (result.success) {
-      setSubmitted(true);
+  setForm({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+} else {
+  const result = await response.json();
+  console.error(result);
 
-      setForm({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-      });
-    } else {
-      alert('Ziņas nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mani telefoniski.');
-    }
+  alert('Ziņas nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz.');
+}
 
   } catch (error) {
     console.error('Email error:', error);
