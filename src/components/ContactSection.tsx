@@ -17,40 +17,40 @@ export const ContactSection: React.FC = () => {
     setLoading(true);
 
     try {
+      // Izmantojam to pašu datu struktūru, ko BookingModal.tsx
       const response = await fetch('/api/booking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: form.name,          // Sūtām kā 'name'
-          fullName: form.name,      // Katram gadījumam sūtām arī 'fullName'
-          email: form.email,
-          phone: form.phone,
-          message: form.message,
+          serviceId: 'kontaktforma',
           serviceName: 'Ziņa no kontaktformas',
           format: 'Kontaktforma',
           date: '',
           timeSlot: '',
+          fullName: form.name, // Sūtām kā fullName, tāpat kā pop-up logā
+          email: form.email,
+          phone: form.phone,
+          message: form.message,
+          agreedToTerms: true, // Pievienojam šo lauku, ko pieprasa API
         }),
       });
 
-      const result = await response.json();
-
-      if (response.ok && (result.success || result.id)) {
-        setSubmitted(true);
-        setForm({
-          name: '',
-          email: '',
-          phone: '',
-          message: '',
-        });
-      } else {
-        alert('Ziņas nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz vai sazinieties telefoniski.');
+      if (!response.ok) {
+        throw new Error('Pieteikuma nosūtīšana neizdevās');
       }
+
+      setSubmitted(true);
+      setForm({
+        name: '',
+        email: '',
+        phone: '',
+        message: '',
+      });
     } catch (error) {
       console.error('Email error:', error);
-      alert('Radās kļūda nosūtot ziņu.');
+      alert('Neizdevās nosūtīt ziņu. Lūdzu, mēģiniet vēlreiz vai sazinieties telefoniski.');
     } finally {
       setLoading(false);
     }
@@ -254,7 +254,7 @@ export const ContactSection: React.FC = () => {
                     {loading ? (
                       <>
                         <Loader2 className="w-4 h-4 animate-spin" />
-                        <span>Sūta...</span>
+                        <span>Nosūta...</span>
                       </>
                     ) : (
                       <>
