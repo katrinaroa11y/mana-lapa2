@@ -16,8 +16,8 @@ export const ContactSection: React.FC = () => {
   e.preventDefault();
 
   try {
-    const response = await fetch('/api/send-email', {
-      method: 'POST',
+const response = await fetch('/api/booking', {
+  method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
