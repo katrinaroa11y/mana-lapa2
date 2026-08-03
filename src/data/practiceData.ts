@@ -52,18 +52,17 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'nodarbibas-un-lekcijas',
-    title: 'Nodarbības un lekcijas',
-    subtitle: 'Izglītojošas un interaktīvas lekcijas un nodarbības',
+    title: 'Komandas saliedēšana un izglītojošas lekcijas',
+    subtitle: 'Komandas saliedēšanas nodarbības un interaktīvas lekcijas privātpersonām un uzņēmumiem',
     tag: 'Tiešsaistē un klātienē',
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
     description: 'Izglītojošas un interaktīvas lekcijas un nodarbības',
     benefitsTitle: 'Ieguvumi:',
     benefits: [
-      'Iegūt praktiskas metodes stresa, trauksmes un emociju regulēšanai.',
-      'Labāk izprast savas emocijas, uzvedību un domāšanas modeļus.',
-      'Attīstīt efektīvas komunikācijas un attiecību veidošanas prasmes.',
-      'Gūt jaunas zināšanas, dalīties pieredzē un saņemt atbalstu psihologa vadītā un drošā grupas vidē.'
+      'Uzlabota savstarpējā komunikācija un emocionālā drošība komandā.',
+      'Praktiski rīki stresa un izdegšanas profilaksei darba vidē.',
+      'Komandas saliedētības un individuālās produktivitātes pieaugums.',
     ],
     price: '',
     recommendedFor: 'Uzņēmumiem, organizācijām un cilvēku grupām, kas vēlas stiprināt mentālo veselību, komandas mijiedarbību un emocionālo noturību.'
