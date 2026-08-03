@@ -10,9 +10,7 @@ export const PRACTICE_INFO = {
   phone: '+371 27572910',
   workingHours: 'Pirmdiena - Piektdiena: 09:00 - 19:00',
   social: {
-    linkedin: 'https://linkedin.com/in/katrina-rozenbaha',
-    instagram: 'https://instagram.com/katrina.rozenbaha.psihologs',
-    facebook: 'https://facebook.com/katrina.rozenbaha.psihologs'
+    instagram: 'https://instagram.com/psihologs.katrina.rozenbaha',
   }
 };
 
