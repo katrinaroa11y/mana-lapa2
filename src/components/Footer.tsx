@@ -123,15 +123,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenPrivacy, onOpenBooking }) 
               >
                 <Instagram className="w-4 h-4" />
               </a>
-              <a
-                href={PRACTICE_INFO.social.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full bg-[#5E6A71] text-white flex items-center justify-center hover:bg-[#A8C3A1] transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-4 h-4" />
-              </a>
+              
             </div>
           </div>
 
