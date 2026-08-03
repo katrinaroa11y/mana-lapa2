@@ -52,8 +52,8 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'nodarbibas-un-lekcijas',
-    title: 'Komandas saliedēšana un izglītojošas lekcijas',
-    subtitle: 'Komandas saliedēšanas nodarbības un interaktīvas lekcijas privātpersonām un uzņēmumiem',
+    title: 'Komandas saliedēšana',
+    subtitle: 'Komandas saliedēšanas pasākumi un darbsemināri organizācijām',
     tag: 'Tiešsaistē un klātienē',
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
