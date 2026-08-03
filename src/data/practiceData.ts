@@ -57,7 +57,7 @@ export const SERVICES: ServiceItem[] = [
     tag: 'Tiešsaistē un klātienē',
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
-    description: 'Izglītojošas un interaktīvas lekcijas un nodarbības',
+    description: 'Psihologa vadītas saliedēšanās nodarbības apvieno mērķtiecīgas un dinamiskas komandas aktivitātes un pašizziņas uzdevumus, palīdzot darbiniekiem labāk izprast sevi, kolēģus un komandas dinamiku. Nodarbības stiprina uzticēšanos, uzlabo komunikāciju, veicina emocionālo noturību un palīdz veidot darba vidi, kurā cilvēki jūtas iesaistīti, novērtēti un motivēti sasniegt kopīgus mērķus.',
     benefitsTitle: 'Ieguvumi:',
     benefits: [
       'Uzlabota savstarpējā komunikācija un emocionālā drošība komandā.',
