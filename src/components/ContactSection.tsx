@@ -12,10 +12,47 @@ export const ContactSection: React.FC = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        fullName: form.name,
+        email: form.email,
+        phone: form.phone,
+        message: form.message,
+        serviceName: 'Ziņa no kontaktformas',
+        format: 'Kontaktforma',
+        date: '',
+        timeSlot: '',
+      }),
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      setSubmitted(true);
+
+      setForm({
+        name: '',
+        email: '',
+        phone: '',
+        message: '',
+      });
+    } else {
+      alert('Ziņas nosūtīšana neizdevās. Lūdzu, mēģiniet vēlreiz vai sazinieties ar mani telefoniski.');
+    }
+
+  } catch (error) {
+    console.error('Email error:', error);
+    alert('Radās kļūda nosūtot ziņu.');
+  }
+};
 
   return (
     <section id="kontakti" className="py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#FFFFFF] relative overflow-hidden">
