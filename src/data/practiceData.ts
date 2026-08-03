@@ -89,7 +89,7 @@ export const APPROACH_METHODS: ApproachMethod[] = [
     id: 'schema',
     title: 'Shēmu Terapija',
     shortDesc: 'Padziļināta uzvedības un domāšanas modeļu atpazīšana un transformācija.',
-    description: 'Palīdz izprast, kāpēc atkal un atkal nonākam līdzīgās konfliktējošās situācijās vai iekšējos pārdzīvojumos, un ļauj apgūt kā pašam apmierināt savas vajadzības un kā uzlabot attiecības ar sevi un apkārtējiem cilvēkiem.',
+    description: 'Shēmu terapija palīdz izprast dziļākus domāšanas, emociju un uzvedības modeļus, kas bieži veidojušies agrākās dzīves pieredzes ietekmē un var atkārtoties attiecībās, izvēlēs vai emocionālās reakcijās. Tā palīdz atpazīt savas pamatvajadzības, mainīt ierobežojošus uzskatus un attīstīt veselīgākus veidus, kā rūpēties par sevi un veidot laimīgākas attiecības.',
     iconName: 'Layers',
     certificates: [
       {
