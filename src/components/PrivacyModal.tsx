@@ -72,12 +72,12 @@ export const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) =
             <section className="space-y-2">
               <h4 className="font-serif text-base font-semibold text-[#3E4950] flex items-center space-x-2">
                 <FileText className="w-4 h-4 text-[#8BA983]" />
-                <span>2. Kādus datus mēs apstrādājam?</span>
+                <span>2. Kādi datie tiek apstrādāti?</span>
               </h4>
               <ul className="list-disc list-inside space-y-1 pl-1">
                 <li>Vārds, uzvārds un kontaktinformācija (e-pasts, tālruņa numurs) pieteikuma un saziņas nodrošināšanai.</li>
                 <li>Iemesls vai komentārs, ko brīvprātīgi norādāt pieteikšanās formā.</li>
-                <li>Konsultāciju un izpētes norises laikā iegūtā profesionālā dokumentācija, kas tiek glabāta atbilstoši psihologa profesionālās ētikas normām un tiesību aktiem.</li>
+                <li>Konsultāciju norises laikā iegūtā profesionālā dokumentācija, kas tiek glabāta atbilstoši psihologa profesionālās ētikas normām un tiesību aktiem.</li>
               </ul>
             </section>
 
@@ -86,7 +86,7 @@ export const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) =
                 3. Datu apstrādes mērķi un tiesiskais pamats
               </h4>
               <p>
-                Dati tiek apstrādāti tikai ar mērķi sniegt psiholoģiskās konsultācijas, nodrošināt pierakstu un saziņu, kā arī izpildīt tiesību aktos noteiktos juridiskos pienākumus. Mēs nekad nenododam Jūsu datus trešajām personām mārketinga vai komerciālos nolūkos.
+                Dati tiek apstrādāti tikai ar mērķi sniegt psiholoģiskās konsultācijas, nodrošināt pierakstu un saziņu, kā arī izpildīt tiesību aktos noteiktos juridiskos pienākumus. Dati netiek nodoti trešajām personām mārketinga vai komerciālos nolūkos.
               </p>
             </section>
 
@@ -95,7 +95,7 @@ export const PrivacyModal: React.FC<PrivacyModalProps> = ({ isOpen, onClose }) =
                 4. Konfidencialitāte un konfidencialitātes izņēmumi
               </h4>
               <p>
-                Visas pieteikumu formas un konsultācijās pārrunātās tēmas ir pilnībā konfidenciālas. Izņēmumi ir pieļaujami TIKAI gadījumos, ko tieši paredz Latvijas Republikas Psihologu likums (piemēram, tiešs un nepārprotams apdraudējums personas vai citu dzīvībai vai veselībai).
+                Visas pieteikumu formas un konsultācijās pārrunātās tēmas ir pilnībā konfidenciālas. Izņēmumi ir pieļaujami TIKAI gadījumos, ko tieši paredz Latvijas Psihologu likums (piemēram, tiešs un nepārprotams apdraudējums personas vai citu dzīvībai vai veselībai).
               </p>
             </section>
 
