@@ -148,7 +148,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-base sm:text-lg lg:text-xl text-[#5E6A71] font-normal max-w-2xl mx-auto leading-relaxed mb-10"
         >
-          Vide, kurā apvienojas iejūtīgs atbalsts, konfidencialitāte un zinātnē balstītas pieejas.
+         Klīniskās psiholoģes konsultācijas. Palīdzu pārvarēt trauksmi, stresu, izdegšanu un psiholoģiskās traumas sekas, lai veidotu mieŗīgāku un līdzsvarotāku dzīvi. Konsultācijas attālināti, kā arī psihologa vadīti semināri uzņēmumiem Rīgā un visā Latvijā.
         </motion.p>
 
         {/* Action Buttons */}
