@@ -47,14 +47,14 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
                   )}
                 </div>
 
-                <div>
-                  {/* Service Title & Subtitle */}
-                  <h3 className="font-serif text-2xl font-normal text-[#3E4950] mb-2 leading-snug">
-                    {service.title}
-                  </h3>
-                  <p className="text-sm text-[#7E8C94] mb-6 leading-relaxed">
-                    {service.subtitle}
-                  </p>
+                <div className="flex-1">
+  {/* Service Title & Subtitle */}
+  <h3 className="min-h-[64px] font-serif text-2xl font-normal text-[#3E4950] mb-2 leading-snug">
+    {service.title}
+  </h3>
+  <p className="min-h-[52px] text-sm text-[#7E8C94] mb-6 leading-relaxed">
+    {service.subtitle}
+  </p>
 
                   {/* Duration & Format */}
                   <div className="space-y-2 mb-6 text-xs text-[#5E6A71] bg-[#FAF8F2] p-3.5 rounded-xl border border-[#E8E1D8]/60">
