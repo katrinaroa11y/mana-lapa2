@@ -12,7 +12,7 @@ const DEFAULT_ABOUT_TEXT = `**Mani sauc Katrīna Rozenbaha**, un es esmu **reģi
 
 Mani veidojusi ir starptautiskā izglītība un pieredze Vācijā un miers un vienkāršība, kurā esmu uzaugusi lauku viensētā Kurzemē. Šis savienojums man ļauj saglabāt augstus profesionālos standartus, vienlaikus paliekot patiesi klātesošai, empātiskai un "ar kājām uz zemes".
 
-Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības, taču dažkārt to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam izprast notiekošo, atklāt stiprās puses un rast ceļu uz pārmaiņām.
+Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības, taču dažkārt to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam izprast notiekošo, **atklāt Tavas stiprās puses un rast ceļu uz pārmaiņām**.
 
 Savā darbā ievēroju **traumas informētu pieeju** un konsultācijās izmantoju **zinātniski pamatotas metodes**, kuras pielāgoju individuāli katra cilvēka vajadzībām.
 
