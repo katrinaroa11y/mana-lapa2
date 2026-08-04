@@ -10,7 +10,7 @@ const TEXT_STORAGE_KEY = 'katrina_about_text_v99';
 
 const DEFAULT_ABOUT_TEXT = `**Mani sauc Katrīna Rozenbaha**, un es esmu **reģistrēta klīniskā psiholoģe**. Savā praksē esmu sniegusi atbalstu **vairāk nekā 1000 cilvēkiem**, konsultējot individuāli un vadot izglītojošas lekcijas par mentālo veselību un personīgo izaugsmi.
 
-Mani veidojusi ir gan starptautiskā izglītība un pieredze Vācijā, gan miers un vienkāršība, kurā esmu uzaugusi lauku viensētā Kurzemē. Šis savienojums man ļauj saglabāt augstus profesionālos standartus, vienlaikus paliekot patiesi klātesošai, empātiskai un "ar kājām uz zemes".
+Mani veidojusi ir starptautiskā izglītība un pieredze Vācijā un miers un vienkāršība, kurā esmu uzaugusi lauku viensētā Kurzemē. Šis savienojums man ļauj saglabāt augstus profesionālos standartus, vienlaikus paliekot patiesi klātesošai, empātiskai un "ar kājām uz zemes".
 
 Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības, taču dažkārt to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam izprast notiekošo, atklāt stiprās puses un rast ceļu uz pārmaiņām.
 
