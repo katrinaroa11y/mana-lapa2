@@ -85,7 +85,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
           transition={{ duration: 0.6 }}
           className="inline-flex items-center space-x-2 bg-[#FFFFFF]/80 backdrop-blur-md border border-[#E8E1D8] px-4 py-2 rounded-full shadow-2xs mb-5 text-xs sm:text-sm text-[#5E6A71]"
         >
-          <span className="font-medium">Katrīnas Rozenbahas psiholoģijas privātprakse</span>
+          <span className="font-medium">Shēmu terapija • EMDR • Klīniskā psiholoģija</span>
         </motion.div>
 
         {/* Small Circular Profile Avatar */}
