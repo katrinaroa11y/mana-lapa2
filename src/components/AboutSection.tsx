@@ -12,11 +12,9 @@ const DEFAULT_ABOUT_TEXT = `**Mani sauc Katrīna Rozenbaha**, un es esmu **reģi
 
 Manu profesionālo pieeju veidojusi ir gan daudzveidīgā izglītība un darba pieredze, ko ieguvu Latvijā un Vācijā, gan miers un vienkāršība, ko piedzīvoju uzaugot lauku viensētā Kurzemē. Šis vērtību apvienojums ļauj man saglabāt **augstus profesionālos standartus**, vienlaikus paliekot klātesošai un ''ar kājām uz zemes''.
 
-Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības, taču dažkārt to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam izprast notiekošo, **atklāt Tavas stiprās puses un rast ceļu uz pārmaiņām**.
+**Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības**, taču nereti to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam izprast notiekošo, **atklāt Tavas stiprās puses un rast ceļu uz pārmaiņām**.
 
-Savā darbā ievēroju **traumas informētu pieeju** un konsultācijās izmantoju **zinātniski pamatotas metodes**, kuras pielāgoju individuāli katra cilvēka vajadzībām.
-
-**Mans mērķis ir palīdzēt Tev labāk izprast sevi, stiprināt psiholoģisko noturību un veidot dzīvi, kurā jūties līdzsvarotāk, pašpārliecinātāk un tuvāk sev.**`;
+Savā darbā ievēroju **traumas informētu pieeju** un konsultācijās izmantoju **zinātniski pamatotas metodes**, kuras pielāgoju individuāli katra cilvēka vajadzībām un vēlmēm.`;
 
 export const AboutSection: React.FC = () => {
   const [portraitSrc, setPortraitSrc] = useState<string>(DEFAULT_PORTRAIT);
