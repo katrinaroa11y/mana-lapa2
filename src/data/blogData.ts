@@ -77,7 +77,7 @@ body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam dr
         },
         {
           heading: 'Kāpēc atpūta vienmēr nepalīdz?',
-          body: 'Ja izdegšanu izraisa dziļāki domāšanas modeļi (piemēram, perfekcionisms, nespēja pateikt 'nē' vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts pateikt 'nē' uzdevumiem, pienākumiem ģimenē un darbā, kā arī netiek lūgta palīdzība un tā pienākumu nasta nemitīgi krājas.'
+          body: 'Ja izdegšanu izraisa dziļāki domāšanas modeļi (piemēram, perfekcionisms, nespēja pateikt 'nē' vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts atteikt uzdevumiem, pienākumiem ģimenē un darbā, kā arī netiek lūgta palīdzība un tā pienākumu nasta nemitīgi krājas.'
         },
         {
           heading: '3 praktiski soļi stresa līmeņa mazināšanai šodien',
@@ -113,11 +113,11 @@ body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam dr
         },
         {
           heading: 'Biežāk sastopamās shēmas',
-          body: 'Pie biežākajām shēmām pieder "Pamestība / Nestabilitāte" (bailes, ka mīļotais cilvēks pametīs), "Emocionālā deprivācija" (sajūta, ka neviens Tevi pa īstam nesaprot) un "Perfekcionisms" (nepārtraukta spriedze un tiekšanās būt ideālam).'
+          body: 'Pie biežākajām shēmām pieder Pamestība / Nestabilitāte (bailes, ka mīļotais cilvēks pametīs), Emocionālā deprivācija (sajūta, ka neviens Tevi pa īstam nesaprot) un Perfekcionisms (nepārtraukta spriedze un tiekšanās būt ideālam).'
         },
         {
           heading: 'Kā shēmu terapija palīdz ieviest pārmaiņas?',
-          body: 'Terapijas laikā klients mācās atpazīt savus shēmu "režīmus", dziedināt ievainoto iekšējo bērnu un attīstīt spēcīgāku "Veselīgā pieaugušā" daļu. Rezultātā cilvēks var parūpēties par savām vajadzībām veselīgā veidā un pārraut neveselīgos modeļus.'
+          body: 'Terapijas laikā klients mācās atpazīt savus shēmu režīmus, dziedināt ievainoto iekšējo bērnu un attīstīt spēcīgāku Veselīgā pieaugušā daļu. Rezultātā cilvēks var parūpēties par savām vajadzībām veselīgā veidā un pārraut neveselīgos modeļus.'
         }
       ],
       keyTakeaways: [
