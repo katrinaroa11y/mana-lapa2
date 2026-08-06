@@ -40,7 +40,7 @@ export const SERVICES: ServiceItem[] = [
     tag: 'Tiešsaistē',
     duration: '55 minūtes',
     format: 'Tiešsaistē',
-    description: 'EMDR (Eye Movement Desensitization and Reprocessing) ir starptautiski atzīta un zinātniski pamatota terapijas metode, kas palīdz smadzenēm **pārstrādāt neatrisinātas traumatiskas pieredzes vai PTSS** (pēctraumatskā stresa sindroma) radītos simptomus. EMDR var palīdzēt mazināt vai pavisam novērst simptomus fobiju gadījumā (bailes no suņiem, zirnekļiem, lidošanas), pēc autoavārijas (bailes no automašīnas vadīšanas), pēc seksuālas un fiziskas vardarbības piedzīvošanas, kā arī kompleksām traumām.',
+    description: 'EMDR (Eye Movement Desensitization and Reprocessing) ir starptautiski atzīta un zinātniski pamatota terapijas metode, kas palīdz smadzenēm **pārstrādāt neatrisinātas traumatiskas pieredzes vai PTSS** (pēctraumatskā stresa sindroma) radītos simptomus. EMDR var palīdzēt mazināt vai pavisam novērst grūtības fobiju gadījumā (bailes no suņiem, zirnekļiem, lidošanas), pēc autoavārijas (bailes no automašīnas vadīšanas), pēc seksuālas un fiziskas vardarbības piedzīvošanas, kā arī kompleksām traumām.',
     benefitsTitle: 'Ieguvumi:',
     benefits: [
       'Novērsti vai mazināti traumatiskās pieredzes simptomi',
