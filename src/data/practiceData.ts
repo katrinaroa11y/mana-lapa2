@@ -52,12 +52,12 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'nodarbibas-un-lekcijas',
-    title: 'Komandas saliedēšana',
-    subtitle: 'Komandas saliedēšanas pasākumi un darbsemināri organizācijām',
+    title: 'Organizācijām',
+    subtitle: 'Darbsemināri un komandas saliedēšanas pasākumi organizācijām',
     tag: 'Tiešsaistē un klātienē',
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
-    description: 'Psihologa vadītas saliedēšanās nodarbības apvieno mērķtiecīgas un dinamiskas komandas aktivitātes un pašizziņas uzdevumus, **palīdzot darbiniekiem labāk izprast sevi, kolēģus un komandas dinamiku**. Nodarbības **stiprina uzticēšanos, uzlabo komunikāciju, veicina emocionālo noturību** un palīdz veidot darba vidi, kurā cilvēki jūtas iesaistīti, novērtēti un motivēti sasniegt kopīgus mērķus.',
+    description: 'Psihologa vadīti semināri ļauj darbiniekiem ieskatīties psiholoģijas tēmās, lai veicinātu labbūtību. Savukārt, saliedēšanās nodarbības apvieno mērķtiecīgas un dinamiskas komandas aktivitātes un pašizziņas uzdevumus, **palīdzot darbiniekiem labāk izprast sevi, kolēģus un komandas dinamiku**. Darbs ar psihologu organizācijā **stiprina komandu uzticēšanos, uzlabo komunikāciju, veicina emocionālo noturību** un palīdz veidot darba vidi, kurā cilvēki jūtas novērtētāki un motivētāki.',
     benefitsTitle: 'Ieguvumi:',
     benefits: [
       'Uzlabota savstarpējā komunikācija un emocionālā drošība komandā.',
