@@ -93,18 +93,28 @@ export const Header: React.FC<HeaderProps> = ({
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo / Brand Name */}
-        <a
-          href="/"
-          onClick={handleLogoClick}
-          className="flex flex-col group"
-        >
-          <span className="font-serif text-xl sm:text-2xl font-normal text-[#3E4950] tracking-tight group-hover:text-[#8BA983] transition-colors">
-            {PRACTICE_INFO.name}
-          </span>
-          <span className="text-[10px] sm:text-xs text-[#7E8C94] uppercase tracking-wider">
-            Klīniskā psiholoģe
-          </span>
-        </a>
+     {/* Logo / Brand */}
+<a
+  href="/"
+  onClick={handleLogoClick}
+  className="group flex items-center space-x-3 text-left"
+>
+  <div className="w-10 h-10 rounded-full bg-[#A8C3A1]/20 border border-[#A8C3A1]/40 flex items-center justify-center text-[#5E6A71] group-hover:bg-[#A8C3A1] group-hover:text-white transition-all duration-300">
+    <span className="font-serif text-lg font-semibold tracking-wider">
+      KR
+    </span>
+  </div>
+
+  <div>
+    <span className="block font-serif text-xl sm:text-2xl font-normal text-[#3E4950] tracking-tight group-hover:text-[#8BA983] transition-colors">
+      {PRACTICE_INFO.name}
+    </span>
+
+    <span className="block text-[10px] sm:text-xs text-[#7E8C94] uppercase tracking-wider">
+      Klīniskā psiholoģe
+    </span>
+  </div>
+</a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
