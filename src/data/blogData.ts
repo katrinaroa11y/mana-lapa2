@@ -77,7 +77,7 @@ body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam dr
         },
         {
           heading: 'Kāpēc atpūta vienmēr nepalīdz?',
-          body: 'Ja izdegšanu izraisa dziļāki domāšanas modeļi (piemēram, perfekcionisms, nespēja pateikt "nē" vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts pateikt ''nē'' uzdevumiem, pienākumiem ģimenē un darbā, kā arī netiek lūgta palīdzība un tā pienākumu nasta nemitīgi krājas.'
+          body: 'Ja izdegšanu izraisa dziļāki domāšanas modeļi (piemēram, perfekcionisms, nespēja pateikt 'nē' vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts pateikt 'nē' uzdevumiem, pienākumiem ģimenē un darbā, kā arī netiek lūgta palīdzība un tā pienākumu nasta nemitīgi krājas.'
         },
         {
           heading: '3 praktiski soļi stresa līmeņa mazināšanai šodien',
