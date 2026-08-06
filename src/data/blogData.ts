@@ -46,8 +46,7 @@ export const BLOG_POSTS: BlogPost[] = [
         },
         {
           heading: 'Ko gaidīt no pirmās EMDR sesijas?',
-          body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam drošības sajūtu un apzināmies pieejamos resursus. Tikai tad, kad klients jūtas pilnībā droši un sagatavots, tiek uzsākts pārstrādes darbs. Jums nebūs smalki jāstāsta katra traumas detaļa, jo EMDR pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma. Tā vadīta procesa rezultātā veicina emocionāli sāpīgu pieredžu ''noglabāšanu'' pagātnē un mazina to ietekmi.'
-        }
+body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam drošības sajūtu un apzināmies pieejamos resursus. Tikai tad, kad klients jūtas pilnībā droši un sagatavots, tiek uzsākts pārstrādes darbs. Jums nebūs detalizēti jāizstāsta katra traumatiskā notikuma detaļa. EMDR terapijas pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma, kas palīdz emocionāli sāpīgām pieredzēm kļūt par pagātnes daļu un mazina to ietekmi uz pašreizējo dzīvi.'        }
       ],
       keyTakeaways: [
         'EMDR ir zinātniski pierādīta un Starptautiskās Veselības Organizācijas (PVO) atzīta metode.',
