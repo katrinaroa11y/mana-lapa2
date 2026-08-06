@@ -32,7 +32,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '5 min lasījums',
     category: 'EMDR & Traumu terapija',
     excerpt: 'EMDR jeb desensibilizācija un pārstrāde ar acu kustībām ir viena no zinātniski visvairāk pētītajām un efektivākajām metodēm traumu un trauksmes mazināšanā.',
-    featuredImage: '/src/assets/images/blog_emdr_therapy.jpg',
+    featuredImage: '/public/blog_emdr_therapy.jpg',
     content: {
       intro: 'Daudzi cilvēki gadiem ilgi nes smagu pagātnes notikumu vai hroniskas trauksmes nastu, nemaz neapzinoties, ka smadzenes ir "iestrēgušas" traumas brīdī. EMDR (Eye Movement Desensitization and Reprocessing) terapija nodrošina strukturētu pieeju, kas palīdz smadzenēm dabiski pārstrādāt neatrisinātās atmiņas.',
       sections: [
@@ -67,7 +67,7 @@ body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam dr
     readTime: '6 min lasījums',
     category: 'Stresa vadība & Izdegšana',
     excerpt: 'Izdegšana nenotiek vienā dienā. Tā ir pakāpeniska emocionāla un fiziska spēku izsīkšana. Uzziniet galvenos signālus un praksē pārbaudītus soļus, lai atlabtu.',
-    featuredImage: '/src/assets/images/blog_burnout_prevention.jpg',
+    featuredImage: '/public/blog_burnout_prevention.jpg',
     content: {
       intro: 'Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgas prasības bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus. Izdegšanas profilakse un laicīga rīcība ir atslēga uz ilgtspējīgu labsajūtu.',
       sections: [
@@ -103,7 +103,7 @@ body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam dr
     readTime: '7 min lasījums',
     category: 'Shēmu terapija',
     excerpt: 'Vai kādreiz esi pamanījis, ka atkal un atkal nonāc līdzīgās konfliktsituācijās vai izvēlies līdzīgus partnerus? Shēmu terapija palīdz izprast šos neapzinātos uzvedības modeļus.',
-    featuredImage: '/src/assets/images/blog_schema_therapy_and_relationship_advice.jpg',
+    featuredImage: '/public/blog_schema_therapy_and_relationship_advice.jpg',
     content: {
       intro: 'Shēmu terapija ir psihoterapijas pieeja. Tā ir īpaši izstrādāta, lai strādātu ar dziļi iesakņotiem un traucējošiem uzvedības modeļiem.',
       sections: [
