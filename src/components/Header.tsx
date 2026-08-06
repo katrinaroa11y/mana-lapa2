@@ -123,8 +123,7 @@ export const Header: React.FC<HeaderProps> = ({
               key={link.href}
               href={link.href}
               onClick={(e) => handleNavClick(e, link.href)}
-              className="text-sm text-[#5E6A71] hover:text-[#3E4950] font-medium transition-colors"
-            >
+className="text-base text-[#5E6A71] hover:text-[#3E4950] font-medium transition-colors"            >
               {link.name}
             </a>
           ))}
