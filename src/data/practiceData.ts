@@ -148,14 +148,14 @@ export const FAQS: FaqItem[] = [
   },
   {
     id: 'faq-2',
-    question: 'Cik gara ir viena kosultācija un cik bieži konsultācijām ir jānotiek?',
-    answer: 'Vienas konsultācijas ilgums ir 55 minūtes. Parasti konsultācijas sākumā notiek reizi nedēļā vai reizi divās nedēļās, lai procesam būtu secīgums un veidotos dziļāka sadarbība ar psihologu. Taču iespējams vienoties arī par citu biežumu, atkarībā no Tavām vēlmēm un iespējām.',
+    question: 'Cik gara ir kosultācija un cik bieži konsultācijām pie psihologa ir jānotiek?',
+    answer: 'Vienas konsultācijas ilgums manā praksē ir 55 minūtes. Parasti konsultācijas sākumā notiek reizi nedēļā vai reizi divās nedēļās, lai procesam būtu secīgums un veidotos dziļāka sadarbība ar psihologu. Taču iespējams vienoties arī par citu biežumu, atkarībā no Tavām vēlmēm un iespējām.',
     category: 'Process'
   },
   {
     id: 'faq-3',
     question: 'Vai konsultācijas var notikt arī tiešsaistē (online)?',
-    answer: 'Jā, visas konsultācijas notiek tiešsaistē, izmantojot drošu Google Meet vai MS Teams platformu. Tiešsaistes sesijas ir vienlīdz efektīvas kā tikšanās klātienē.',
+    answer: 'Jā, visas konsultācijas notiek tiešsaistē, izmantojot drošu Google Meet vai MS Teams platformu. Tiešsaistes sesijas ir tikpat efektīvas kā tikšanās klātienē un arī ļauj izmantot plašu klāstu ar metodēm (EMDR, shēmu terapijas metodes u.c.).',
     category: 'Formāts'
   },
   {
@@ -181,7 +181,7 @@ export const FAQS: FaqItem[] = [
 export const TIME_SLOTS = [
   '17:30',
   '18:30',
-  'Cits – sazināšos ar Tevi personīgi'
+  'Cits laiks vai pieteikšanās sestdienā – raksti to man ziņā un sazināšos ar Tevi personīgi'
 ];
 
 export const WORK_TOPICS: WorkTopic[] = [
