@@ -32,7 +32,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: '5 min lasījums',
     category: 'EMDR & Traumu terapija',
     excerpt: 'EMDR jeb desensibilizācija un pārstrāde ar acu kustībām ir viena no zinātniski visvairāk pētītajām un efektivākajām metodēm traumu un trauksmes mazināšanā.',
-    featuredImage: '/public/blog_emdr_therapy.jpg',
+    featuredImage: '/blog_emdr_therapy.jpg',
     content: {
       intro: 'Daudzi cilvēki gadiem ilgi nes smagu pagātnes notikumu vai hroniskas trauksmes nastu, nemaz neapzinoties, ka smadzenes ir "iestrēgušas" traumas brīdī. EMDR (Eye Movement Desensitization and Reprocessing) terapija nodrošina strukturētu pieeju, kas palīdz smadzenēm dabiski pārstrādāt neatrisinātās atmiņas.',
       sections: [
