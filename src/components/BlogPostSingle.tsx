@@ -158,13 +158,13 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
           {/* Consultation Banner */}
           <div className="pt-6 text-center space-y-4">
             <p className="text-sm text-[#5E6A71]">
-              Sajutāt resonansi ar šajā rakstā aplūkoto tēmu?
+              Vēlies uzzināt vairāk par rakstā aplūkoto tēmu?
             </p>
             <button
               onClick={onOpenBooking}
               className="bg-[#A8C3A1] hover:bg-[#8BA983] text-white py-3 px-8 rounded-full font-medium text-sm transition-all shadow-xs hover:shadow-md cursor-pointer"
             >
-              Pieteikties konsultācijai pie Katrīnas
+              Piesakies konsultācijai
             </button>
           </div>
 
