@@ -53,7 +53,7 @@ export const SERVICES: ServiceItem[] = [
   {
     id: 'nodarbibas-un-lekcijas',
     title: 'Organizācijām',
-    subtitle: 'Darbsemināri un komandas saliedēšanas pasākumi organizācijām',
+    subtitle: 'Darbsemināri, lekcijas un komandas saliedēšanas pasākumi',
     tag: 'Tiešsaistē un klātienē',
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
