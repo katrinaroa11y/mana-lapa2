@@ -75,7 +75,7 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
-          body: `<b>Izdegšana nenotiek vienā dienā</b>. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai negulētu nakti, taču jāpatur prātā, ka tieši sākuma stadijā izdegšanu atpazīstot, to ir visvieglāk apturēt. Šeit ir apkopotas galvenās <b>agrīnās pazīmes</b>, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
+          body: `<b class="font-bold">Izdegšana nenotiek vienā dienā</b>. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai negulētu nakti, taču jāpatur prātā, ka tieši sākuma stadijā izdegšanu atpazīstot, to ir visvieglāk apturēt. Šeit ir apkopotas galvenās <b>agrīnās pazīmes</b>, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
             1. Grūtības koncentrēties
             2. Nespēja pabeigt iesākto
             3. Grūtības pieņemt lēmumus
@@ -94,7 +94,7 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
         },
         {
           heading: '3 praktiski soļi stresa līmeņa mazināšanai šodien',
-          body: '1. Ievies mazas pauzes darba dienā (jau 5 minūšu pastaiga un 2 minūtes apzinātas elpošanas ik pēc stundas var radīt pārmaiņas).\n2. Definē skaidru robežu starp darba laiku un privāto dzīvi. Pat ja tavs amats prasa būt sasniedzamam arī ārpus parastā darba laika, ir svarīgi nospraust robežas, kas pasargā tavu mieru un veselību. Piemēram, nodalīt darba tālruni no personīgā vai noteikt konkrētus laika logus, kuros vakaros un brīvdienās neesi pieejams telefoniski (tajā laikā klients un kolēģis var rakstīt e-pastus). \n3. Praktizē līdzjūtību pret sevi un atzīsti sev, ka cilvēkiem nav iespējams būt ideāliem un nevajag izdarīt visu perfekti. Reizēm arī pietiekami labi ir labākais iespējamais rezultāts. '
+          body: `1. Ievies mazas pauzes darba dienā (jau 5 minūšu pastaiga un 2 minūtes apzinātas elpošanas ik pēc stundas var radīt pārmaiņas).\n2. Definē skaidru robežu starp darba laiku un privāto dzīvi. Pat ja tavs amats prasa būt sasniedzamam arī ārpus parastā darba laika, ir svarīgi nospraust robežas, kas pasargā tavu mieru un veselību. Piemēram, nodalīt darba tālruni no personīgā vai noteikt konkrētus laika logus, kuros vakaros un brīvdienās neesi pieejams telefoniski (tajā laikā klients un kolēģis var rakstīt e-pastus). \n3. Praktizē līdzjūtību pret sevi un atzīsti sev, ka cilvēkiem nav iespējams būt ideāliem un nevajag izdarīt visu perfekti. Reizēm arī ''pietiekami labi'' ir labākais iespējamais rezultāts. `
         }
       ],
       keyTakeaways: [
