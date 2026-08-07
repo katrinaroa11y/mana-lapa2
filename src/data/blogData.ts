@@ -94,7 +94,7 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
         },
         {
           heading: '3 praktiski soļi stresa līmeņa mazināšanai šodien',
-          body: '1. Ieviesiet mazas pauzes darba dienā (5 minūšu pastaiga un pat 2 minūtes apzinātas elpošanas ik pēc stundas var radīt pārmaiņas).\n2. Definējiet skaidru robežu starp darba laiku un privāto dzīvi.\n3. Praktizējiet līdzjūtību pret sevi: atzīsti sev, ka cilvēkiem nav iespējams būt ideāliem un nemaz nevajag izdarīt visu perfekti.'
+          body: '1. Ievies mazas pauzes darba dienā (jau 5 minūšu pastaiga un 2 minūtes apzinātas elpošanas ik pēc stundas var radīt pārmaiņas).\n2. Definē skaidru robežu starp darba laiku un privāto dzīvi. Pat ja tavs amats prasa būt sasniedzamam arī ārpus parastā darba laika, ir svarīgi nospraust robežas, kas pasargā tavu mieru un veselību. Piemēram, nodalīt darba tālruni no personīgā vai noteikt konkrētus laika logus, kuros vakaros un brīvdienās neesi pieejams telefoniski (tajā laikā klients un kolēģis var rakstīt e-pastus). \n3. Praktizē līdzjūtību pret sevi un atzīsti sev, ka cilvēkiem nav iespējams būt ideāliem un nevajag izdarīt visu perfekti. Reizēm arī pietiekami labi ir labākais iespējamais rezultāts. '
         }
       ],
       keyTakeaways: [
