@@ -48,7 +48,7 @@ Un tomēr, ne katram cilvēkam pēc traumatiskas pieredzes attīstās trauksme, 
         },
         {
           heading: 'Ko gaidīt no pirmās EMDR sesijas?',
-body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības un simptomus, veido drošības sajūtu un apzina pieejamos resursus. Tikai tad, kad klients jūtas pilnībā droši un sagatavots, tiek uzsākts pārstrādes darbs. Reizēm cilvēki baidās no traumas pārstrādes, domājot, ka būs nepieciešams detalizēti izstāstīt katru traumatiskā notikuma detaļu. Tomēr EMDR terapijā nav atkārtoti jāizdzīvo vai jāapraksta visa traumatiskā pieredze, jo terapijas pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma un abpusēja stimulācija, kas palīdz sāpīgām atmiņām pakāpeniski zaudēt savu emocionālo intensitāti un kļūt par pagātnes daļu. Tādā veidā tiek mazināta vai pavisam novērsta traumas ietekme uz pašreizējo dzīvi.'        }
+body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības un simptomus, veido drošības sajūtu un apzina pieejamos resursus. Tikai tad, kad klients jūtas pilnībā droši un sagatavots, tiek uzsākts pārstrādes darbs. Reizēm cilvēki baidās no traumas pārstrādes, domājot, ka būs nepieciešams detalizēti izstāstīt katru traumatiskā notikuma detaļu. Tomēr EMDR terapijā nav atkārtoti jāizdzīvo vai jāapraksta visa traumatiskā pieredze, jo terapijas pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma un abpusēja stimulācija, kas palīdz sāpīgām atmiņām pakāpeniski zaudēt savu emocionālo intensitāti un kļūt par pagātnes daļu. Rezultātā tiek mazināta vai pavisam novērsta traumas ietekme un dzīves kvalitāte uzlabojās.'        }
       ],
       keyTakeaways: [
         'EMDR ir zinātniski pierādīta un Starptautiskās Veselības Organizācijas (PVO) atzīta metode.',
@@ -71,11 +71,22 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
     excerpt: 'Izdegšana nenotiek vienā dienā. Tā ir pakāpeniska emocionāla un fiziska spēku izsīkšana. Uzziniet galvenos signālus un praksē pārbaudītus soļus, lai atlabtu.',
     featuredImage: '/blog_burnout_prevention.jpg',
     content: {
-      intro: 'Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgas prasības bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus. Izdegšanas profilakse un laicīga rīcība ir atslēga uz ilgtspējīgu labsajūtu.',
+      intro: 'Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgas prasības bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus un sāk parādītes trauksme, nomāktība un fizisks bezspēks. Izdegšanas pazīmju laicīga pamanīšana un profilakse ir atslēga uz ilgtspējīgu veselību un darba sparu.',
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
-          body: 'Agrīnās izdegšanas pazīmes bieži izpaužas kā pastāvīgs nogurums (pat pēc brīvdienām), miega traucējumi, aizkaitināmība un samazinātas koncentrēšanās spējas. Kā arī cinisma vai nošķirtības sajūta pret savu darbu vai tuviniekiem.'
+          body: 'Izdegšana nenotiek vienā dienā. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai sliktāku miegu, taču tieši agrīnajā stadijā izdegšanu ir visvieglāk apturēt. Šeit ir galvenās agrīnās pazīmes, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
+            1. Grūtības koncentrēties
+            2. Nespēja pabeigt iesākto
+            3. Grūtības pieņemt lēmumus
+            4. Neveselīgu ieradumu pieaugums (palielinās, piemēram, neveselīgu ēdienu, alkohola, tabakas izstrādājumu vai ekrānu patēriņš)
+            5. Nevēlēšanās iet uz darbu
+            6. Biežāka slimošana
+            7. Vēlme izolēties
+            8. Paātrināta sirdsdarbība
+            9. Miega traucējumi (piemēram, grūtības iemigt, bieža mošanās nakts laikā vai sajūta, ka neesi izgulējies no rīta pat pēc 8-9 stundu miega).
+            10. Emociju izmaiņas - cilvēks sāk just vairāk cinisma, biežāku nomāktību, lielāku aizkaitināmību vai izteiktāku motivācijas trūkumu.
+            '
         },
         {
           heading: 'Kāpēc atpūta vienmēr nepalīdz?',
