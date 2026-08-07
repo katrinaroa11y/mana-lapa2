@@ -127,9 +127,10 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
                 <h2 className="font-serif text-2xl text-[#3E4950] font-normal pt-2">
                   {sec.heading}
                 </h2>
-                <p className="whitespace-pre-line leading-relaxed">
-                  {sec.body}
-                </p>
+<div 
+  className="whitespace-pre-line leading-relaxed [&>b]:font-semibold [&>b]:text-[#3E4950]"
+  dangerouslySetInnerHTML={{ __html: sec.body }} 
+/>
               </div>
             ))}
           </div>
