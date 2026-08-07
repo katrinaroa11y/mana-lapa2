@@ -71,11 +71,11 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
     excerpt: 'Izdegšana nenotiek vienā dienā. Tā ir pakāpeniska emocionāla un fiziska spēku izsīkšana. Uzziniet galvenos signālus un praksē pārbaudītus soļus, lai atlabtu.',
     featuredImage: '/blog_burnout_prevention.jpg',
     content: {
-      intro: 'Mūsdienu steidzīgajā ritmā <b>liels darba apjoms un nemitīgas prasības<b> bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus un sāk parādītes trauksme, nomāktība un fizisks bezspēks. Izdegšanas pazīmju laicīga pamanīšana un profilakse ir atslēga uz ilgtspējīgu veselību un darba sparu.',
+      intro: 'Mūsdienu steidzīgajā ritmā <b>liels darba apjoms un nemitīgas prasības</b> bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus un sāk parādītes trauksme, nomāktība un fizisks bezspēks. Izdegšanas pazīmju laicīga pamanīšana un profilakse ir atslēga uz ilgtspējīgu veselību un darba sparu.',
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
-          body: `<b>Izdegšana nenotiek vienā dienā<b>. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai negulētu nakti, taču jāpatur prātā, ka tieši sākuma stadijā izdegšanu atpazīstot, to ir visvieglāk apturēt. Šeit ir apkopotas galvenās <b>agrīnās pazīmes<b>, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
+          body: `<b>Izdegšana nenotiek vienā dienā</b>. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai negulētu nakti, taču jāpatur prātā, ka tieši sākuma stadijā izdegšanu atpazīstot, to ir visvieglāk apturēt. Šeit ir apkopotas galvenās <b>agrīnās pazīmes</b>, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
             1. Grūtības koncentrēties
             2. Nespēja pabeigt iesākto
             3. Grūtības pieņemt lēmumus
