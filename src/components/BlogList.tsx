@@ -9,7 +9,7 @@ interface BlogListProps {
   isPage?: boolean;
 }
 
-export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, onOpenBooking, isPage = true }) => {
+export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, isPage = true }) => {
   // Exactly 3 posts for 1 single row on desktop grid
   const postsRow = BLOG_POSTS.slice(0, 3);
 
@@ -68,7 +68,7 @@ export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, onOpenBooking,
               {/* Card Body */}
               <div className="p-6 sm:p-7 flex flex-col flex-grow justify-between space-y-4">
                 
-                {/* 2. Autors un publicēšanas datums (Autors: Katrīna Rozenbaha | 2026. gada 15. maijs) */}
+                {/* 2. Autors un publicēšanas datums */}
                 <div className="flex items-center space-x-2 text-xs text-[#7E8C94] font-medium tracking-wide">
                   <span className="flex items-center space-x-1 text-[#3E4950]">
                     <User className="w-3.5 h-3.5 text-[#8BA983] shrink-0" />
@@ -81,7 +81,7 @@ export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, onOpenBooking,
                   </span>
                 </div>
 
-                {/* 3. Raksta nosaukums (H2 / H3 virsraksts) */}
+                {/* 3. Raksta nosaukums */}
                 <div className="space-y-2 flex-grow">
                   <h2 className="font-serif text-xl sm:text-2xl text-[#3E4950] font-normal group-hover:text-[#8BA983] transition-colors leading-snug">
                     {post.title}
@@ -101,26 +101,6 @@ export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, onOpenBooking,
             </motion.article>
           ))}
         </div>
-
-        {/* Bottom Callout Banner */}
-        {onOpenBooking && (
-          <div className="mt-20 p-8 sm:p-12 rounded-3xl bg-[#FFFFFF] border border-[#E8E1D8] shadow-xs flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
-            <div className="space-y-2 max-w-xl">
-              <h3 className="font-serif text-2xl text-[#3E4950] font-normal">
-                Vēlies pārrunāt savu situāciju personīgi?
-              </h3>
-              <p className="text-sm text-[#5E6A71] font-light">
-                Piesakies individuālai konsultācijai online (tiešsaistē).
-              </p>
-            </div>
-            <button
-              onClick={onOpenBooking}
-              className="shrink-0 bg-[#A8C3A1] hover:bg-[#8BA983] text-white py-3.5 px-7 rounded-full text-sm font-medium transition-all shadow-xs hover:shadow-md cursor-pointer"
-            >
-              Pieteikties konsultācijai
-            </button>
-          </div>
-        )}
 
       </div>
     </div>
