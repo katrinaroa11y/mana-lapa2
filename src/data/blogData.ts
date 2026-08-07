@@ -71,11 +71,11 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
     excerpt: 'Izdegšana nenotiek vienā dienā. Tā ir pakāpeniska emocionāla un fiziska spēku izsīkšana. Uzziniet galvenos signālus un praksē pārbaudītus soļus, lai atlabtu.',
     featuredImage: '/blog_burnout_prevention.jpg',
     content: {
-      intro: 'Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgas prasības bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus un sāk parādītes trauksme, nomāktība un fizisks bezspēks. Izdegšanas pazīmju laicīga pamanīšana un profilakse ir atslēga uz ilgtspējīgu veselību un darba sparu.',
+      intro: 'Mūsdienu steidzīgajā ritmā **liels darba apjoms un nemitīgas prasības** bieži tiek uztvertas kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus un sāk parādītes trauksme, nomāktība un fizisks bezspēks. Izdegšanas pazīmju laicīga pamanīšana un profilakse ir atslēga uz ilgtspējīgu veselību un darba sparu.',
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
-          body: `Izdegšana nenotiek vienā dienā. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai sliktāku miegu, taču tieši agrīnajā stadijā izdegšanu ir visvieglāk apturēt. Šeit ir galvenās agrīnās pazīmes, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
+          body: `**Izdegšana nenotiek vienā dienā**. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai negulētu nakti, taču jāpatur prātā, ka tieši sākuma stadijā izdegšanu atpazīstot, to ir visvieglāk apturēt. Šeit ir apkopotas galvenās **agrīnās pazīmes**, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
             1. Grūtības koncentrēties
             2. Nespēja pabeigt iesākto
             3. Grūtības pieņemt lēmumus
@@ -89,8 +89,8 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
             `
         },
         {
-          heading: 'Kāpēc atpūta vienmēr nepalīdz?',
-          body: 'Ja izdegšanu izraisa dziļāki domāšanas modeļi (piemēram, perfekcionisms, nespēja atteikt citiem cilvēkiem vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts atteikt uzdevumiem, pienākumiem ģimenē un darbā, kā arī netiek lūgta palīdzība un tā pienākumu nasta nemitīgi krājas.'
+          heading: 'Kāpēc maza atpūta vai atvaļinājums izdegšanai nepalīdz?',
+          body: 'Ja izdegšanu izraisa dziļāki domāšanas modeļi (piemēram, perfekcionisms, nespēja atteikt citiem cilvēkiem vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt personības iezīmes un personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts atteikt uzdevumiem, pienākumiem ģimenē un darbā, kā arī netiek lūgta palīdzība un tā pienākumu nasta nemitīgi krājas. Tādēļ neliela atpūta vai divas brīvas nedēļas nepalīdzēs, jo tās nemainīs šos pierastos domāšanas modeļus un pārliecības par sevi un pasauli. Atgriežoties no atpūtas, turpinot darīt visu kā parasti - pāri saviem spēkiem, domājot tikai par citu vajadzībām, ātri vien notiek atgriešanās pie iepriekšējā izsīkuma stāvokļa. Tādēļ noderīgs ir dziļāks darbs ar jautājumiem ''Kas man liek izdegt?'' un ''Kā es varu sev palīdzēt nospraust robežas ar darbu vai apkārtējiem cilvēkiem?''. '
         },
         {
           heading: '3 praktiski soļi stresa līmeņa mazināšanai šodien',
