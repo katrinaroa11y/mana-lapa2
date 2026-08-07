@@ -30,11 +30,11 @@ export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, isPage = true 
             </div>
             
             <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#3E4950] font-normal leading-tight">
-              Raksti par garīgo veselību, stresa vadību un psihoterapiju
+              Raksti par mentālo veselību, stresa vadību un pašizaugsmi
             </h1>
             
             <p className="text-base sm:text-lg text-[#5E6A71] max-w-2xl mx-auto font-light leading-relaxed">
-              Zināšanas un praktiski ieteikumi no klīniskās psiholoģes par trauksmes mazināšanu, stresa vadības tehnikām, shēmu terapiju, EMDR un emociālo līdzsvaru.
+              Zināšanas un praktiski ieteikumi no klīniskās psiholoģes par trauksmes mazināšanu, stresa vadību, shēmu terapiju, EMDR un emociālo līdzsvaru.
             </p>
           </div>
         )}
