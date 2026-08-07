@@ -75,7 +75,7 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
-          body: 'Izdegšana nenotiek vienā dienā. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai sliktāku miegu, taču tieši agrīnajā stadijā izdegšanu ir visvieglāk apturēt. Šeit ir galvenās agrīnās pazīmes, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
+          body: `Izdegšana nenotiek vienā dienā. Tā ir lēna, gandrīz nepamanāma virzība no ikdienišķa noguruma līdz pilnīgam spēku izsīkumam. Visbiežāk mēs ignorējam pirmos brīdinājuma signālus, norakstot tos uz "smagu darba nedēļu" vai sliktāku miegu, taču tieši agrīnajā stadijā izdegšanu ir visvieglāk apturēt. Šeit ir galvenās agrīnās pazīmes, kurām vērts pievērst uzmanību, iekams organisms nav pieprasījis piespiedu pārtraukumu:
             1. Grūtības koncentrēties
             2. Nespēja pabeigt iesākto
             3. Grūtības pieņemt lēmumus
@@ -86,7 +86,7 @@ body: 'Sākotnējās sesijās psihologs uzmanīgi izvērtē klienta grūtības u
             8. Paātrināta sirdsdarbība
             9. Miega traucējumi (piemēram, grūtības iemigt, bieža mošanās nakts laikā vai sajūta, ka neesi izgulējies no rīta pat pēc 8-9 stundu miega).
             10. Emociju izmaiņas - cilvēks sāk just vairāk cinisma, biežāku nomāktību, lielāku aizkaitināmību vai izteiktāku motivācijas trūkumu.
-            '
+            `
         },
         {
           heading: 'Kāpēc atpūta vienmēr nepalīdz?',
