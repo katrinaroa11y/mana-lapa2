@@ -38,15 +38,17 @@ export const BLOG_POSTS: BlogPost[] = [
       sections: [
         {
           heading: 'Kā darbojas EMDR metode?',
-          body: 'Traumatiskas pieredzes laikā mūsu smadzeņu dabiskā informācijas apstrādes sistēma var tikt pārslogota. EMDR izmanto abpusējo stimulāciju (visbiežāk atbilstošas acu kustības, audio signālus vai taktilo stimulāciju), kas aktivizē abas smadzeņu puslodes. Tas līdzinās procesam, kas dabiski notiek miega REM fāzē.'
+          body: 'Traumatiskas pieredzes laikā mūsu smadzeņu dabiskā informācijas apstrādes sistēma var tikt pārslogota. EMDR izmanto abpusējo stimulāciju (visbiežāk atbilstošas acu kustības, audio signālus vai taktilo stimulāciju), kas aktivizē abas smadzeņu puslodes. Šī stimulācija līdzinās procesam, kas dabiski notiek miega REM fāzē.'
         },
         {
           heading: 'Kādos gadījumos EMDR ir piemērota metode?',
-          body: 'Pētījumi liecina, ka pēctraumatiska stresa sindroma (PTSS) simptomiem EMDR uzrāda lieliskus rezultātus. Tas var būt ļoti palīdzoši un dziedinoši arī trauksmes, panikas lēkmju, fobiju, zema pašvērtējuma un bērnības emocionālo grūtību gadījumos.'
+          body: 'EMDR terapija ir piemērota cilvēkiem, kuri ir piedzīvojuši dažāda veida traumatisku pieredzi - gan vienu īpaši smagu notikumu, gan ilgstoši uzkrājušās negatīvas pieredzes. Traumatiskas pieredzes ir piemēram, fiziska vai emocionāla vardarbības, bullings un mobings, nelaimes gadījumi, pieredzēti militāri konflikti, dabas katastrofas un tuva cilvēka pēkšņs zaudējums. EMDR terapija var būt arī noderīga cilvēkiem, kuri ilgstoši piedzīvojuši emocionālu nolaidību no vecāku puses bērnībā (vecāki nebija klāt, atstāja ilgstoši vienu tam nepiemērotā vecumā, nereaģēja uz bērna vajadzībām). Un tomēr, EMDR der ne tikai traumu sekām. Šīs metodes efektivitāte ir pētīta plašam spektram grūtību, un var būt palīdzoša arī fobijām, izdegšanai, zemam pašvērtējumam un citiem psiholoģiskās veselības apgrūtinājumiem.
+
+Vienlaikus ir svarīgi atcerēties, ka ne katram cilvēkam pēc traumatiskas pieredzes attīstās trauksme, izteiktas bailes vai pēctraumatiskā stresa traucējumi (PTST) un ne katram cilvēkam EMDR ir vispiemērotākā metode. Konsultācijas laikā psihologs un klients kopīgi izvērtē, vai EMDR ir piemērota metode konkrētajā situācijā, ņemot vērā cilvēka pieredzi, vajadzības, vērtības un individuālās īpašības..'
         },
         {
           heading: 'Ko gaidīt no pirmās EMDR sesijas?',
-body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam drošības sajūtu un apzināmies pieejamos resursus. Tikai tad, kad klients jūtas pilnībā droši un sagatavots, tiek uzsākts pārstrādes darbs. Jums nebūs detalizēti jāizstāsta katra traumatiskā notikuma detaļa. EMDR terapijas pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma, kas palīdz emocionāli sāpīgām pieredzēm kļūt par pagātnes daļu un mazina to ietekmi uz pašreizējo dzīvi.'        }
+body: 'Sākotnējās sesijās mēs uzmanīgi izvērtējam simptomus, veidojam drošības sajūtu un apzināmies pieejamos resursus. Tikai tad, kad klients jūtas pilnībā droši un sagatavots, tiek uzsākts pārstrādes darbs. Nav nepieciešams detalizēti izstāstīt katru traumatiskā notikuma detaļu. EMDR terapijas pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma, kas palīdz emocionāli sāpīgām pieredzēm kļūt par pagātnes daļu. Tā mazinās traumas ietekme uz pašreizējo dzīvi.'        }
       ],
       keyTakeaways: [
         'EMDR ir zinātniski pierādīta un Starptautiskās Veselības Organizācijas (PVO) atzīta metode.',
