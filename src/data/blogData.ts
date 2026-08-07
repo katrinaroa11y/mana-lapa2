@@ -38,7 +38,7 @@ export const BLOG_POSTS: BlogPost[] = [
       sections: [
         {
           heading: 'Kā darbojas EMDR metode?',
-          body: 'Traumatiskas pieredzes laikā mūsu smadzeņu dabiskā informācijas apstrādes sistēma var tikt pārslogota. EMDR izmanto abpusējo stimulāciju (visbiežāk atbilstošas acu kustības, audio signālus vai taktilo stimulāciju), kas aktivizē abas smadzeņu puslodes. Šī stimulācija līdzinās procesam, kas dabiski notiek miega REM fāzē.'
+          body: 'Spēcīga vai traumatiska pārdzīvojuma laikā mūsu smadzenes var tikt pārslogotas, un dabiskais informācijas apstrādes process apstājas. EMDR metodes pamatā ir abpusēja jeb bilaterālā stimulācija: visbiežāk tās ir ritmiskas acu kustības, skaņas signāli vai viegli pieskārieni, kas pārmaiņus aktivizē labo un kreiso smadzeņu puslodi. Šis process atgādina to, kas dabiski notiek smadzenēs miega ātrajā (REM) fāzē, un palīdz smadzenēm drošā veidā "pārstrādāt" iestrēgušās atmiņas un emocijas.'
         },
         {
           heading: 'Kādos gadījumos EMDR ir piemērota metode?',
