@@ -80,6 +80,8 @@ export default function App() {
         onNavigateHome={handleNavigateHome}
         onNavigateBlogs={() => navigate('/blogs')}
         currentPath={currentPath}
+        language={language}
+onLanguageChange={handleLanguageChange}
       />
 
       <main className="flex-grow">
