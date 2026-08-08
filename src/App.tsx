@@ -15,6 +15,15 @@ import { BlogPostSingle } from './components/BlogPostSingle';
 
 export default function App() {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
+
+  const [language, setLanguage] = useState<'lv' | 'en'>(() => {
+    return localStorage.getItem('language') === 'en' ? 'en' : 'lv';
+  });
+
+  const handleLanguageChange = (lang: 'lv' | 'en') => {
+    setLanguage(lang);
+    localStorage.setItem('language', lang);
+  };
   const [selectedServiceId, setSelectedServiceId] = useState<string | undefined>(undefined);
   const [isPrivacyOpen, setIsPrivacyOpen] = useState(false);
   const [currentPath, setCurrentPath] = useState<string>(() => window.location.pathname);
