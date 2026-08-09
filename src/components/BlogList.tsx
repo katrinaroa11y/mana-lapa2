@@ -33,7 +33,7 @@ export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, isPage = true 
               Raksti par mentālo veselību, stresa vadību un pašizaugsmi
             </h1>
             
-            <p className="text-base sm:text-lg text-[#5E6A71] max-w-2xl mx-auto font-light leading-relaxed">
+            <p className="text-base sm:text-lg text-[#3E4950] max-w-2xl mx-auto font-light leading-relaxed">
               Zināšanas un praktiski ieteikumi no klīniskās psiholoģes par trauksmes mazināšanu, stresa vadību, shēmu terapiju, EMDR un emociālo līdzsvaru.
             </p>
           </div>
@@ -86,7 +86,7 @@ export const BlogList: React.FC<BlogListProps> = ({ onSelectPost, isPage = true 
                   <h2 className="font-serif text-xl sm:text-2xl text-[#3E4950] font-normal group-hover:text-[#8BA983] transition-colors leading-snug">
                     {post.title}
                   </h2>
-                  <p className="text-sm text-[#5E6A71] line-clamp-3 font-light leading-relaxed pt-1">
+                  <p className="text-sm text-[#3E4950] line-clamp-3 font-light leading-relaxed pt-1">
                     {post.excerpt}
                   </p>
                 </div>
