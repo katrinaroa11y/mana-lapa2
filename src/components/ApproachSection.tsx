@@ -12,7 +12,7 @@ const DEFAULT_QUOTE = `Lielākās pārmaiņas reti ir kā skaļa uguņošana, t�
 const DEFAULT_QUOTE_AUTHOR = `Katrīna Rozenbaha`;
 
 export const ApproachSection: React.FC = () => {
-const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
+  const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
 
   const [quoteText] = useState<string>(() => {
     try {
@@ -79,7 +79,7 @@ const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
           <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
             Darba metodes un izglītība
           </h2>
-          <p className="text-base sm:text-lg text-[#5E6A71]">
+          <p className="text-base sm:text-lg text-[#2D373C] font-normal">
             Konsultēšanas procesā katram individuāli tiek piemērotas atbilstošākās metodes, to saskaņojot ar klienta vēlmēm un vajadzībām.
           </p>
         </div>
@@ -107,11 +107,11 @@ const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
                       {getIcon(method.iconName)}
                     </div>
 
-                   {method.tag && (
-  <span className="text-xs font-medium text-[#8BA983] bg-[#FFFFFF] px-2.5 py-1 rounded-full border border-[#E8E1D8]">
-    {method.tag}
-  </span>
-)}
+                    {method.tag && (
+                      <span className="text-xs font-medium text-[#8BA983] bg-[#FFFFFF] px-2.5 py-1 rounded-full border border-[#E8E1D8]">
+                        {method.tag}
+                      </span>
+                    )}
                   </div>
 
                   <h3 className="font-serif text-xl font-medium text-[#3E4950] mb-2">
@@ -122,7 +122,7 @@ const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
                     {method.shortDesc}
                   </p>
 
-                  <div className="text-sm text-[#5E6A71] leading-relaxed whitespace-pre-line space-y-2">
+                  <div className="text-sm text-[#2D373C] leading-relaxed whitespace-pre-line space-y-2 font-normal">
                     {renderFormattedText(method.description)}
                   </div>
                 </div>
@@ -142,7 +142,7 @@ const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
                               {cert.title && (
                                 <p className="font-medium text-[#3E4950] leading-snug">{cert.title}</p>
                               )}
-                              <div className="flex flex-wrap items-center gap-x-2 text-[#7E8C94]">
+                              <div className="flex flex-wrap items-center gap-x-2 text-[#2D373C]">
                                 {cert.number && (
                                   <span className="font-mono text-[11px]">{cert.number}</span>
                                 )}
