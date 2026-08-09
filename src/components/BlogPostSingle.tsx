@@ -128,7 +128,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
                   {sec.heading}
                 </h2>
                 <div 
-                  className="whitespace-pre-line leading-relaxed [&>b]:font-semibold [&>b]:text-[#3E4950]"
+                  className="whitespace-pre-line leading-relaxed [&>b]:font-bold [&>b]:text-[#1A2024] [&>strong]:font-bold [&>strong]:text-[#1A2024]"
                   dangerouslySetInnerHTML={{ __html: sec.body }} 
                 />
               </div>
