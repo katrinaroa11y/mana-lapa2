@@ -26,7 +26,8 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking }) => {
           <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
             Informācija, kas var noderēt pirms pirmās tikšanās
           </h2>
-          <p className="text-base text-[#5E6A71]">
+          {/* Nomainīts uz tumšāku toni #2D3748 */}
+          <p className="text-base text-[#2D3748]">
             Atbildes uz biežāk uzdotajiem jautājumiem par konsultāciju gaitu, formu, apmaksu un konfidencialitāti.
           </p>
         </div>
@@ -66,7 +67,8 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking }) => {
                       transition={{ duration: 0.3 }}
                       className="overflow-hidden"
                     >
-                      <div className="px-5 sm:px-6 pb-6 text-sm sm:text-base text-[#5E6A71] leading-relaxed border-t border-[#FAF8F2] pt-4">
+                      {/* Nomainīts atbildes teksts uz tumšāku toni #2D3748 */}
+                      <div className="px-5 sm:px-6 pb-6 text-sm sm:text-base text-[#2D3748] leading-relaxed border-t border-[#FAF8F2] pt-4">
                         {faq.answer}
                       </div>
                     </motion.div>
@@ -83,7 +85,8 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking }) => {
             <h4 className="font-serif text-base font-semibold text-[#3E4950]">
               Palika neatbildēts jautājums?
             </h4>
-            <p className="text-xs sm:text-sm text-[#7E8C94]">
+            {/* Nomainīts uz tumšāku toni #4A5568 */}
+            <p className="text-xs sm:text-sm text-[#4A5568] font-medium">
               Raksti man uz e-pastu
             </p>
           </div>
