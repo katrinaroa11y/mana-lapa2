@@ -38,7 +38,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
               >
                 {/* Top Badge */}
                 <div className="mb-6 flex justify-between items-start">
-                  {/* Bļodiņa ar tumšāku zaļo tekstu (#5B7E55) */}
+                  
                   <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-[#FAF8F2] text-[#5B7E55] border border-[#E8E1D8]">
                     {service.tag}
                   </span>
@@ -54,13 +54,13 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
                   <h3 className="min-h-[64px] font-serif text-2xl font-normal text-[#3E4950] mb-2 leading-snug">
                     {service.title}
                   </h3>
-                  {/* Apakšvirsraksts nomainīts uz tumšāku toni #4A5568 */}
+                 
                   <p className="min-h-[52px] text-sm text-[#4A5568] mb-6 leading-relaxed font-medium">
                     {service.subtitle}
                   </p>
 
                   {/* Duration & Format */}
-                  {/* Teksts nomainīts uz #2D3748 un ikonas uz tumšāku zaļo #5B7E55 */}
+                
                   <div className="space-y-2 mb-6 text-xs text-[#2D3748] font-medium bg-[#FAF8F2] p-3.5 rounded-xl border border-[#E8E1D8]/60">
                     <div className="flex items-center space-x-2">
                       <Clock className="w-4 h-4 text-[#5B7E55] shrink-0" />
@@ -72,7 +72,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
                     </div>
                   </div>
 
-                  {/* Description nomainīts uz tumšāku toni #2D3748 */}
+                
                   <p className="text-sm text-[#2D3748] mb-6 leading-relaxed">
                     {renderFormattedText(service.description)}
                   </p>
