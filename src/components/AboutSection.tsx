@@ -23,7 +23,10 @@ export const AboutSection: React.FC = () => {
   const [aboutText] = useState(() => {
     try {
       const saved = localStorage.getItem(TEXT_STORAGE_KEY);
-      if (saved) return saved;
+
+      if (saved) {
+        return saved;
+      }
     } catch (e) {
       console.error('Kļūda ielādējot Par mani tekstu:', e);
     }
@@ -44,15 +47,26 @@ export const AboutSection: React.FC = () => {
 
     updateFromStorage();
 
-    window.addEventListener('about-portrait-updated', updateFromStorage);
-    window.addEventListener('storage', updateFromStorage);
+    window.addEventListener(
+      'about-portrait-updated',
+      updateFromStorage
+    );
+
+    window.addEventListener(
+      'storage',
+      updateFromStorage
+    );
 
     return () => {
       window.removeEventListener(
         'about-portrait-updated',
         updateFromStorage
       );
-      window.removeEventListener('storage', updateFromStorage);
+
+      window.removeEventListener(
+        'storage',
+        updateFromStorage
+      );
     };
   }, []);
 
@@ -82,9 +96,10 @@ export const AboutSection: React.FC = () => {
           </h2>
         </div>
 
+        {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
 
-          {/* Left Column: Portrait & Credentials Frame */}
+          {/* Left Column: Portrait */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -94,12 +109,14 @@ export const AboutSection: React.FC = () => {
           >
             <div className="relative mx-auto max-w-md lg:max-w-none">
 
-              {/* Decorative Frame border */}
+              {/* Decorative Frame */}
               <div className="absolute -inset-4 rounded-3xl bg-[#E8E1D8]/60 transform -rotate-2" />
+
               <div className="absolute -inset-2 rounded-3xl bg-[#A8C3A1]/30 transform rotate-1" />
 
-              {/* Main Image Container */}
+              {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg border border-[#E8E1D8] bg-[#FAF8F2] group">
+
                 <img
                   src={portraitSrc}
                   alt="Katrīna Rozenbaha, klīniskā psiholoģe"
@@ -107,8 +124,9 @@ export const AboutSection: React.FC = () => {
                   className="w-full h-auto object-cover max-h-[520px] aspect-[3/4] transition-transform duration-500 group-hover:scale-[1.01]"
                 />
 
-                {/* Floating Overlay Badge */}
+                {/* Floating Credentials Badge */}
                 <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl glass-panel shadow-sm border border-[#E8E1D8]/80">
+
                   <div className="flex items-center space-x-3">
 
                     <div className="w-10 h-10 rounded-full bg-[#A8C3A1] text-white flex items-center justify-center shrink-0">
@@ -126,6 +144,7 @@ export const AboutSection: React.FC = () => {
                     </div>
 
                   </div>
+
                 </div>
               </div>
 
@@ -140,14 +159,18 @@ export const AboutSection: React.FC = () => {
             transition={{ duration: 0.7 }}
             className="lg:col-span-7 space-y-6 text-[#2D3748] relative"
           >
-            {/* Formatted Text Paragraphs */}
+
+            {/* Formatted Text */}
             <div className="space-y-4 text-base sm:text-lg leading-relaxed text-[#2D3748]">
+
               {paragraphs.map((para, idx) => (
                 <p key={idx}>
                   {renderFormattedText(para)}
                 </p>
               ))}
+
             </div>
+
           </motion.div>
 
         </div>
@@ -156,4 +179,5 @@ export const AboutSection: React.FC = () => {
   );
 };
 ```
+
 
