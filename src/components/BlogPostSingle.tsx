@@ -121,7 +121,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
           </p>
 
           {/* Section Paragraphs */}
-          <div className="space-y-8 text-base text-[#2D373C] leading-relaxed font-light">
+          <div className="space-y-8 text-base text-[#2D373C] leading-relaxed font-normal">
             {post.content.sections.map((sec, idx) => (
               <div key={idx} className="space-y-3">
                 <h2 className="font-serif text-2xl text-[#3E4950] font-normal pt-2">
@@ -150,7 +150,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
               <h4 className="font-serif text-lg text-[#3E4950] font-medium">
                 {post.author}
               </h4>
-              <p className="text-xs text-[#2D373C] font-light leading-relaxed">
+              <p className="text-xs text-[#2D373C] font-normal leading-relaxed">
                 Reģistrēta psiholoģe (Reģ. Nr. 7001642). Specializējas klīniskajā psiholoģijā, izmanto EMDR un shēmu terapijas metodes.
               </p>
             </div>
