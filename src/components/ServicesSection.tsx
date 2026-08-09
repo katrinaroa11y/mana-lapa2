@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { SERVICES } from '../data/practiceData';
-import { Clock, MapPin, Check, Calendar, ArrowRight } from 'lucide-react';
+import { Clock, MapPin, Check, Calendar } from 'lucide-react';
 import { renderFormattedText } from '../utils/formatText';
 
 interface ServicesSectionProps {
@@ -15,8 +15,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          {/* Tumšāks zaļais teksts virsrakstam (#5B7E55) */}
-          <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#5B7E55] font-semibold mb-3">
+          <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#8BA983] font-semibold mb-3">
             <span>Pakalpojumi</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight">
@@ -38,8 +37,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
               >
                 {/* Top Badge */}
                 <div className="mb-6 flex justify-between items-start">
-                  
-                  <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-[#FAF8F2] text-[#5B7E55] border border-[#E8E1D8]">
+                  <span className="inline-block px-3 py-1 rounded-full text-xs font-medium tracking-wide bg-[#FAF8F2] text-[#8BA983] border border-[#E8E1D8]">
                     {service.tag}
                   </span>
                   {service.price && (
@@ -54,26 +52,24 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
                   <h3 className="min-h-[64px] font-serif text-2xl font-normal text-[#3E4950] mb-2 leading-snug">
                     {service.title}
                   </h3>
-                 
-                  <p className="min-h-[52px] text-sm text-[#4A5568] mb-6 leading-relaxed font-medium">
+                  <p className="min-h-[52px] text-sm text-[#7E8C94] mb-6 leading-relaxed">
                     {service.subtitle}
                   </p>
 
                   {/* Duration & Format */}
-                
-                  <div className="space-y-2 mb-6 text-xs text-[#2D3748] font-medium bg-[#FAF8F2] p-3.5 rounded-xl border border-[#E8E1D8]/60">
+                  <div className="space-y-2 mb-6 text-xs text-[#5E6A71] bg-[#FAF8F2] p-3.5 rounded-xl border border-[#E8E1D8]/60">
                     <div className="flex items-center space-x-2">
-                      <Clock className="w-4 h-4 text-[#5B7E55] shrink-0" />
+                      <Clock className="w-4 h-4 text-[#8BA983] shrink-0" />
                       <span>{service.duration}</span>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <MapPin className="w-4 h-4 text-[#5B7E55] shrink-0" />
+                      <MapPin className="w-4 h-4 text-[#8BA983] shrink-0" />
                       <span>{service.format}</span>
                     </div>
                   </div>
 
-                
-                  <p className="text-sm text-[#2D3748] mb-6 leading-relaxed">
+                  {/* Description */}
+                  <p className="text-sm text-[#5E6A71] mb-6 leading-relaxed">
                     {renderFormattedText(service.description)}
                   </p>
 
@@ -83,8 +79,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
                       {service.benefitsTitle || 'Ieguvumi:'}
                     </h4>
                     {service.benefits.map((benefit, bIdx) => (
-                      <div key={bIdx} className="flex items-start space-x-2.5 text-xs sm:text-sm text-[#2D3748]">
-                        <Check className="w-4 h-4 text-[#5B7E55] shrink-0 mt-0.5" />
+                      <div key={bIdx} className="flex items-start space-x-2.5 text-xs sm:text-sm text-[#5E6A71]">
+                        <Check className="w-4 h-4 text-[#8BA983] shrink-0 mt-0.5" />
                         <span>{benefit}</span>
                       </div>
                     ))}
@@ -105,7 +101,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
                     }}
                     className="w-full inline-flex items-center justify-center space-x-2 py-3 px-4 rounded-xl font-medium text-sm transition-all bg-[#FAF8F2] hover:bg-[#E8E1D8] text-[#3E4950] border border-[#E8E1D8]"
                   >
-                    <Calendar className="w-4 h-4 text-[#5B7E55]" />
+                    <Calendar className="w-4 h-4" />
                     <span>{service.id === 'nodarbibas-un-lekcijas' ? 'Pieteikties' : 'Pieteikties uz sesiju'}</span>
                   </button>
                 </div>
