@@ -55,7 +55,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
 
           <button
             onClick={handleShare}
-            className="inline-flex items-center space-x-2 text-xs font-semibold text-[#5E6A71] hover:text-[#8BA983] bg-[#FFFFFF] px-3.5 py-1.5 rounded-full border border-[#E8E1D8] transition-all cursor-pointer shadow-2xs"
+            className="inline-flex items-center space-x-2 text-xs font-semibold text-[#2D373C] hover:text-[#8BA983] bg-[#FFFFFF] px-3.5 py-1.5 rounded-full border border-[#E8E1D8] transition-all cursor-pointer shadow-2xs"
           >
             <Share2 className="w-3.5 h-3.5" />
             <span>Dalīties ar rakstu</span>
@@ -78,7 +78,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
           </h1>
 
           {/* Metadata Bar */}
-          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-xs sm:text-sm text-[#7E8C94] pt-2 border-t border-[#E8E1D8]/60">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-xs sm:text-sm text-[#2D373C] pt-2 border-t border-[#E8E1D8]/60">
             <div className="flex items-center space-x-1.5">
               <Calendar className="w-4 h-4 text-[#8BA983]" />
               <span>{post.date}</span>
@@ -121,16 +121,16 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
           </p>
 
           {/* Section Paragraphs */}
-          <div className="space-y-8 text-base text-[#5E6A71] leading-relaxed font-light">
+          <div className="space-y-8 text-base text-[#2D373C] leading-relaxed font-light">
             {post.content.sections.map((sec, idx) => (
               <div key={idx} className="space-y-3">
                 <h2 className="font-serif text-2xl text-[#3E4950] font-normal pt-2">
                   {sec.heading}
                 </h2>
-<div 
-  className="whitespace-pre-line leading-relaxed [&>b]:font-semibold [&>b]:text-[#3E4950]"
-  dangerouslySetInnerHTML={{ __html: sec.body }} 
-/>
+                <div 
+                  className="whitespace-pre-line leading-relaxed [&>b]:font-semibold [&>b]:text-[#3E4950]"
+                  dangerouslySetInnerHTML={{ __html: sec.body }} 
+                />
               </div>
             ))}
           </div>
@@ -150,7 +150,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
               <h4 className="font-serif text-lg text-[#3E4950] font-medium">
                 {post.author}
               </h4>
-              <p className="text-xs text-[#5E6A71] font-light leading-relaxed">
+              <p className="text-xs text-[#2D373C] font-light leading-relaxed">
                 Reģistrēta psiholoģe (Reģ. Nr. 7001642). Specializējas klīniskajā psiholoģijā, izmanto EMDR un shēmu terapijas metodes.
               </p>
             </div>
@@ -158,7 +158,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
 
           {/* Consultation Banner */}
           <div className="pt-6 text-center space-y-4">
-            <p className="text-sm text-[#5E6A71]">
+            <p className="text-sm text-[#2D373C]">
               Vēlies uzzināt vairāk par rakstā aplūkoto tēmu?
             </p>
             <button
@@ -202,7 +202,7 @@ export const BlogPostSingle: React.FC<BlogPostSingleProps> = ({
                       {otherPost.title}
                     </h4>
                   </div>
-                  <div className="pt-4 flex items-center justify-between text-xs text-[#7E8C94]">
+                  <div className="pt-4 flex items-center justify-between text-xs text-[#2D373C]">
                     <span>{otherPost.date}</span>
                     <span className="font-medium text-[#8BA983] group-hover:translate-x-1 transition-transform">
                       Lasīt &rarr;
