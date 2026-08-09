@@ -109,7 +109,7 @@ export default function App() {
                       <span>Jaunākie Raksti</span>
                     </div>
                     <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal">
-                      Psiholoģijas un labsajūtas blogs
+                      Psiholoģijas blogs
                     </h2>
                   </div>
                   <button
