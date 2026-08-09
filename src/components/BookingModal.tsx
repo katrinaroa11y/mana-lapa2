@@ -155,7 +155,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             <button
               id="booking-modal-close-btn"
               onClick={resetForm}
-              className="p-2 rounded-full text-[#7E8C94] hover:text-[#3E4950] hover:bg-[#E8E1D8]/40 transition-colors"
+              className="p-2 rounded-full text-[#374151] hover:text-[#3E4950] hover:bg-[#E8E1D8]/40 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
@@ -184,7 +184,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   Paldies, {formData.fullName}!
                 </h3>
 
-                <p className="text-sm text-[#5E6A71] max-w-md mx-auto leading-relaxed">
+                <p className="text-sm text-[#374151] max-w-md mx-auto leading-relaxed">
                   Pieteikums konsultācijai <strong className="text-[#3E4950]">{selectedService.title}</strong> ir veiksmīgi nosūtīts. Tuvāko 24h laikā nosūtīšu apstiprinājumu uz Jūsu e-pastu ({formData.email}).
                   Pieteikums <strong className="text-[#3E4950]">{selectedService.title}</strong> ir veiksmīgi nosūtīts. Tuvāko 24h laikā nosūtīšu apstiprinājumu uz Tavu e-pastu ({formData.email}).
                 </p>
@@ -192,21 +192,21 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                 {/* Booking Recap Card */}
                 <div className="p-4 rounded-2xl bg-[#FAF8F2] border border-[#E8E1D8] text-left text-xs sm:text-sm space-y-2 max-w-md mx-auto">
                   <div className="flex justify-between py-1 border-b border-[#E8E1D8]/60">
-                    <span className="text-[#7E8C94]">Pakalpojums:</span>
+                    <span className="text-[#4B5563]">Pakalpojums:</span>
                     <span className="font-medium text-[#3E4950]">{selectedService.title}</span>
                   </div>
                   <div className="flex justify-between py-1 border-b border-[#E8E1D8]/60">
-                    <span className="text-[#7E8C94]">Formāts:</span>
+                    <span className="text-[#374151]">Formāts:</span>
                     <span className="font-medium text-[#3E4950]">
                       Tiešsaistē (Google Meet / MS Teams)
                     </span>
                   </div>
                   <div className="flex justify-between py-1 border-b border-[#E8E1D8]/60">
-                    <span className="text-[#7E8C94]">Datums un laiks:</span>
+                    <span className="text-[#4B5563]">Datums un laiks:</span>
                     <span className="font-medium text-[#3E4950]">{formData.date} plkst. {formData.timeSlot}</span>
                   </div>
                   <div className="flex justify-between py-1">
-                    <span className="text-[#7E8C94]">Tālrunis saziņai:</span>
+                    <span className="text-[#4B5563]">Tālrunis saziņai:</span>
                     <span className="font-medium text-[#3E4950]">{formData.phone}</span>
                   </div>
                 </div>
@@ -246,7 +246,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                             <span className="block font-serif text-base font-medium text-[#3E4950]">
                               {s.title}
                             </span>
-                            <span className="block text-xs text-[#7E8C94] mt-1">
+                            <span className="block text-xs text-[#4B5563] mt-1">
                               {s.duration}{s.price ? ` • ${s.price}` : ''}
                             </span>
                           </div>
@@ -279,7 +279,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                         <span className="block font-serif text-base font-medium text-[#3E4950]">
                           Tiešsaistē (Online)
                         </span>
-                        <span className="block text-xs text-[#7E8C94]">
+                        <span className="block text-xs text-[#4B5563]">
                           Google Meet vai MS Teams video zvans
                         </span>
                       </div>
@@ -295,7 +295,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     </label>
 
                     <div>
-                      <span className="block text-xs text-[#7E8C94] mb-2 font-medium">
+                      <span className="block text-xs text-[#4B5563] mb-2 font-medium">
                         Izvēlieties vēlamo datumu (Darba dienās P. – Pk.):
                       </span>
                       <input
@@ -324,7 +324,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     </div>
 
                     <div>
-                      <span className="block text-xs text-[#7E8C94] mb-2 font-medium">
+                      <span className="block text-xs text-[#4B5563] mb-2 font-medium">
                         Pieejamie laika lauki:
                       </span>
                       <div className="space-y-2.5">
@@ -337,7 +337,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                               className={`py-3 px-4 rounded-xl text-sm font-medium border transition-all flex items-center justify-center space-x-2 ${
                                 formData.timeSlot === slot
                                   ? 'bg-[#A8C3A1] text-white border-[#A8C3A1] shadow-xs'
-                                  : 'bg-[#FAF8F2] text-[#5E6A71] border-[#E8E1D8] hover:border-[#A8C3A1]'
+                                  : 'bg-[#FAF8F2] text-[#374151] border-[#E8E1D8] hover:border-[#A8C3A1]'
                               }`}
                             >
                               <Clock className="w-4 h-4" />
@@ -352,7 +352,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                           className={`w-full py-3 px-4 rounded-xl text-xs sm:text-sm font-medium border transition-all flex items-center justify-center space-x-2 ${
                             formData.timeSlot === TIME_SLOTS[2]
                               ? 'bg-[#A8C3A1] text-white border-[#A8C3A1] shadow-xs'
-                              : 'bg-[#FAF8F2] text-[#5E6A71] border-[#E8E1D8] hover:border-[#A8C3A1]'
+                              : 'bg-[#FAF8F2] text-[#374151] border-[#E8E1D8] hover:border-[#A8C3A1]'
                           }`}
                         >
                           <MessageSquare className="w-4 h-4 shrink-0" />
@@ -371,7 +371,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     </label>
 
                     <div>
-                      <label className="block text-xs text-[#5E6A71] font-medium mb-1">
+                      <label className="block text-xs text-[#374151] font-medium mb-1">
                         Vārds, Uzvārds *
                       </label>
                       <input
@@ -386,7 +386,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <label className="block text-xs text-[#5E6A71] font-medium mb-1">
+                        <label className="block text-xs text-[#374151] font-medium mb-1">
                           E-pasts *
                         </label>
                         <input
@@ -400,7 +400,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                       </div>
 
                       <div>
-                        <label className="block text-xs text-[#5E6A71] font-medium mb-1">
+                        <label className="block text-xs text-[#374151] font-medium mb-1">
                           Tālruņa numurs *
                         </label>
                         <input
@@ -415,7 +415,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     </div>
 
                     <div>
-                      <label className="block text-xs text-[#5E6A71] font-medium mb-1">
+                      <label className="block text-xs text-[#374151] font-medium mb-1">
                         Īss iemesls vai komentārs (neobligāti)
                       </label>
                       <textarea
@@ -436,7 +436,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                         onChange={(e) => setFormData({ ...formData, agreedToTerms: e.target.checked })}
                         className="mt-1 accent-[#8BA983]"
                       />
-                      <label htmlFor="terms-check" className="text-xs text-[#7E8C94] leading-tight">
+                      <label htmlFor="terms-check" className="text-xs text-[#4B5563] leading-tight">
                         Piekrītu manu datu apstrādei pieteikuma apstrādes un saziņas nodrošināšanai (saskaņā ar VDAR).
                       </label>
                     </div>
@@ -449,7 +449,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     <button
                       type="button"
                       onClick={() => setStep(step - 1)}
-                      className="inline-flex items-center space-x-1.5 text-sm text-[#5E6A71] hover:text-[#3E4950] px-4 py-2 rounded-xl hover:bg-[#FAF8F2]"
+                      className="inline-flex items-center space-x-1.5 text-sm text-[#374151] hover:text-[#3E4950] px-4 py-2 rounded-xl hover:bg-[#FAF8F2]"
                     >
                       <ChevronLeft className="w-4 h-4" />
                       <span>Atpakaļ</span>
