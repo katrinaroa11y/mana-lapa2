@@ -66,7 +66,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                 </p>
 
                 {/* Duration & Format */}
-                <div className="space-y-2 mb-6 text-xs text-[#5E6A71] bg-[#FAF8F2] p-3.5 rounded-xl border border-[#E8E1D8]/60">
+                <div className="space-y-2 mb-6 text-xs text-[#3E4950] bg-[#FAF8F2] p-3.5 rounded-xl border border-[#E8E1D8]/60">
                   <div className="flex items-center space-x-2">
                     <Clock className="w-4 h-4 text-[#8BA983] shrink-0" />
                     <span>{service.duration}</span>
@@ -79,7 +79,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                 </div>
 
                 {/* Description */}
-                <p className="text-sm text-[#5E6A71] mb-6 leading-relaxed">
+                <p className="text-sm text-[#3E4950] mb-6 leading-relaxed">
                   {renderFormattedText(service.description)}
                 </p>
 
@@ -92,7 +92,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                   {service.benefits.map((benefit, bIdx) => (
                     <div
                       key={bIdx}
-                      className="flex items-start space-x-2.5 text-xs sm:text-sm text-[#5E6A71]"
+                      className="flex items-start space-x-2.5 text-xs sm:text-sm text-[#3E4950]"
                     >
                       <Check className="w-4 h-4 text-[#8BA983] shrink-0 mt-0.5" />
                       <span>{benefit}</span>
