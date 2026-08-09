@@ -104,7 +104,8 @@ export const AboutSection: React.FC = () => {
                       <h4 className="font-serif text-sm font-semibold text-[#3E4950]">
                         Katrīna Rozenbaha
                       </h4>
-                      <p className="text-xs text-[#5E6A71]">
+                      {/* Izmaiņa šeit: nomainīts no #5E6A71 uz tumšāku #4A5568 */}
+                      <p className="text-xs text-[#4A5568] font-medium">
                         {PRACTICE_INFO.registrationNumber}
                       </p>
                     </div>
@@ -121,10 +122,12 @@ export const AboutSection: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="lg:col-span-7 space-y-6 text-[#5E6A71] relative"
+            {/* Izmaiņa šeit: nomainīts no #5E6A71 uz tumšāku #2D3748 */}
+            className="lg:col-span-7 space-y-6 text-[#2D3748] relative"
           >
             {/* Formatted Text Paragraphs */}
-            <div className="space-y-4 text-base sm:text-lg leading-relaxed text-[#5E6A71]">
+            {/* Izmaiņa šeit: nomainīts no #5E6A71 uz tumšāku #2D3748 */}
+            <div className="space-y-4 text-base sm:text-lg leading-relaxed text-[#2D3748]">
               {paragraphs.map((para, idx) => (
                 <p key={idx}>
                   {renderFormattedText(para)}
