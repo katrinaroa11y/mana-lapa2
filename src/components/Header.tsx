@@ -12,8 +12,6 @@ export const Header: React.FC<HeaderProps> = ({
   onNavigateHome,
   onNavigateBlogs,
   currentPath = '/',
-  language,
-  onLanguageChange
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
