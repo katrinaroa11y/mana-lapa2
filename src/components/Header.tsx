@@ -30,31 +30,31 @@ export const Header: React.FC<HeaderProps> = ({
 
 const navLinks = [
   {
-    name: language === 'lv' ? 'Par mani' : 'About me',
+    name: 'Par mani',
     href: '#par-mani'
   },
   {
-    name: language === 'lv' ? 'Pakalpojumi' : 'Services',
+    name: 'Pakalpojumi',
     href: '#pakalpojumi'
   },
   {
-    name: language === 'lv' ? 'Tēmas' : 'Topics',
+    name: 'Tēmas',
     href: '#temas'
   },
   {
-    name: language === 'lv' ? 'Pieeja' : 'Approach',
+    name: 'Pieeja',
     href: '#pieeja'
   },
   {
-    name: language === 'lv' ? 'BUJ' : 'FAQ',
+    name: 'BUJ',
     href: '#buj'
   },
   {
-    name: language === 'lv' ? 'Kontakti' : 'Contact',
+    name: 'Kontakti',
     href: '#kontakti'
   },
   {
-    name: language === 'lv' ? 'Blogs' : 'Blog',
+    name: 'Blogs',
     href: '/blogs'
   },
 ];
@@ -152,16 +152,6 @@ className="text-lg text-[#5E6A71] hover:text-[#3E4950] font-medium transition-co
         <div className="flex items-center space-x-3">
           {/* Language Switcher */}
 <div className="hidden md:flex items-center text-sm font-medium">
-  <button
-    onClick={() => onLanguageChange('lv')}
-    className={`transition-colors ${
-      language === 'lv'
-        ? 'text-[#3E4950] font-semibold'
-        : 'text-[#9AA3A8] hover:text-[#3E4950]'
-    }`}
-  >
-    LV
-  </button>
 
   <span className="mx-1 text-[#C8C2B9]">|</span>
 
