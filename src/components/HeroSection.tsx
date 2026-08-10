@@ -121,7 +121,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
           className="font-serif text-4xl sm:text-5xl lg:text-6xl font-normal text-[#3E4950] tracking-tight leading-[1.15] mb-6"
         >
           Palīdzu radīt <br className="hidden sm:inline" />
-          <span className="relative inline-block italic text-[#8BA983] font-normal">
+          <span className="relative inline-block italic text-[#6F8F68] font-normal">
             paliekošas pārmaiņas.
             <svg
               className="absolute -bottom-2 left-0 w-full h-3 text-[#A8C3A1]/40"
