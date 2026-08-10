@@ -45,11 +45,11 @@ export const BLOG_POSTS: BlogPost[] = [
           heading: 'Kādos gadījumos EMDR ir piemērota metode?',
           body: `EMDR terapija ir piemērota cilvēkiem, kuri ir piedzīvojuši dažāda veida traumatiskas pieredzes - <b>gan vienu īpaši smagu notikumu, gan ilgstoši uzkrājušās negatīvas pieredzes.</b> Traumatiskas pieredzes ir, piemēram, fiziska vai emocionāla vardarbība, apcelšanas vai mobinga pieredzes, nelaimes gadījumi, pieredzēti militāri konflikti, dabas katastrofas un tuva cilvēka pēkšņs zaudējums. EMDR terapija var būt arī noderīga cilvēkiem, kuri ilgstoši piedzīvojuši emocionālu nolaidību no vecāku puses bērnībā - vecāki nebija klāt, atstāja ilgstoši vienu tam nepiemērotā vecumā un nereaģēja uz bērna vajadzībām. Taču EMDR der ne tikai traumu sekām. Metodes efektivitāte ir pētīta plašam spektram grūtību, un var būt palīdzoša arī fobijām, izdegšanai, zemam pašvērtējumam un citiem psihoemocionālo veselību apgrūtinošiem faktoriem.
 
-Jāņem vērā, ka traumatiska vai negatīva pieredze ne vienmēr noved pie negatīvu psiholoģisko seku vai PTSS attīstības, tādēļ arī EMDR nebūs piemērota katram. Speciālists un klients kopīgi izvērtē šīs metodes atbilstību, balstoties uz cilvēka simptomiem, individuālajām iezīmēm, situācijas kontekstu un personīgajām vēlmēm. .`
+Jāņem vērā, ka traumatiska vai negatīva pieredze ne vienmēr noved pie negatīvu psiholoģisko seku vai PTSS attīstības, tādēļ arī EMDR nebūs piemērota katram. Speciālists un klients kopīgi izvērtē šīs metodes atbilstību, balstoties uz cilvēka simptomiem, individuālajām iezīmēm, situācijas kontekstu un personīgajām vēlmēm.`
         },
         {
           heading: 'Ko gaidīt no pirmās EMDR sesijas?',
-body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un simptomus, veido drošības sajūtu, izglīto par metodi un apzina pieejamos resursus. <b>Tikai tad, kad klients jūtas pilnībā droši un sagatavots procesam, tiek uzsākts pārstrādes darbs.</b>'        }
+body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un simptomus, veido drošības sajūtu, izglīto par metodi un apzina pieejamos resursus. <b>Tikai tad, kad klients jūtas pilnībā droši un sagatavots procesam, tiek uzsākts pārstrādes darbs.</b>'        },
 {
           heading: 'Kādus uzlabojumus iespējams sasniegt ar EMDR?',
           body: `<b>Reizēm cilvēki baidās no traumas pārstrādes, domājot, ka būs nepieciešams detalizēti izstāstīt katru traumatiskā notikuma detaļu</b>. Tomēr EMDR terapijā<b> nav atkārtoti jāizdzīvo vai detalizēti jāapraksta visa traumatiskā pieredze</b>, jo tās pamatā ir smadzeņu dabiskā informācijas pārstrādes sistēma un abpusēja stimulācija, un šī procesa efektivitātei nav nepieciešama notikuma detaļu atstāstīšana. Kādā Amerikas Psihologu asociācijas žurnāla rakstā (2025) psihologs Silvers dalās ar stāstu par savu klientu, Vjetnamas kara veterānu: <i>‘’Pēc trim sesijām ar bilaterālu stimulāciju klients teica, ka vairs neredz atmiņu attēlus tik spilgtus, cik tie bija. Pēc piektās sesijas klients ziņoja, ka traumatiskais atmiņu attēls ir pazudis pavisam un piebilda: ‘’Ziniet, tas ir skumji, ka mans draugs nomira. Viņš bija labs cilvēks.’’ Un mēs pieredzējām, ka kara trauma, kas notika pirms 30 gadiem, tika atrisināta vienas sesijas 20 minūtēs.’’</i> Šis psihologa pieredzes stāsts ataino to, kā EMDR palīdz sāpīgām atmiņām pakāpeniski zaudēt savu emocionālo intensitāti un kļūt par pagātnes daļu, kā rezultātā tiek mazināta vai pavisam novērsta traumas ietekme. Līdz ar to dzīves kvalitāte var uzlaboties, pat daudzus gadus pēc traumatiskā notikuma.
@@ -61,7 +61,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
         'Pārstrādes procesā izmaiņas notiek gan emocionālā, gan fizioloģiskā līmenī.',
         'Klienti bieži izjūt atvieglojumu jau pēc pirmajām mērķtiecīgajām sesijām.'
       ],
-      quote: 'Smadzenēm piemīt dabisks tieksme uz dziedināšanos – EMDR terapija vienkārši atver durvis šim procesam.',
+      quote: 'Smadzenēm piemīt dabiska tieksme uz dziedināšanos – EMDR terapija vienkārši atver durvis šim procesam.',
       conclusion: 'Ja jūtat, ka pagātnes pieredzes turpina ietekmēt Jūsu pašreizējo ikdienu, attiecības vai pašsajūtu, EMDR var būt drošs un efektīvs ceļš uz atbrīvošanos un atkalredzēšanos ar savu iekšējo mieru.'
     }
   },
