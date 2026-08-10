@@ -146,7 +146,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-base sm:text-lg lg:text-xl text-[#5E6A71] font-normal max-w-2xl mx-auto leading-relaxed mb-10"
         >
-         Klīniskās psiholoģes konsultācijas trauksmes, stresa, depresijas, izdegšanas, attiecību problēmu un citu emocionālu grūtību gadījumos. Konsultācijas attālināti visā Latvijā.
+         Klīniskās psiholoģes konsultācijas trauksmes, stresa, depresijas, izdegšanas, attiecību problēmu un citu emocionālu grūtību risināšanai. Konsultācijas attālināti visā Latvijā.
         </motion.p>
 
         {/* Action Buttons */}
