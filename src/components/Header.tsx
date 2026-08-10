@@ -6,8 +6,6 @@ interface HeaderProps {
   onNavigateHome?: (sectionId?: string) => void;
   onNavigateBlogs?: () => void;
   currentPath?: string;
-  language: 'lv' | 'en';
-  onLanguageChange: (language: 'lv' | 'en') => void;
 }
 export const Header: React.FC<HeaderProps> = ({
   onOpenBooking,
