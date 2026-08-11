@@ -132,15 +132,6 @@ export const ApproachSection: React.FC = () => {
           })}
         </div>
 
-        {/* Approach Quote Box */}
-        <div className="mt-16 p-8 rounded-3xl bg-gradient-to-r from-[#FAF8F2] via-[#F4F0EA] to-[#FAF8F2] border border-[#E8E1D8] text-center max-w-4xl mx-auto relative group">
-          <p className="font-serif text-lg sm:text-xl text-[#3E4950] italic leading-relaxed mb-4">
-            “{quoteText}”
-          </p>
-          <span className="text-xs uppercase tracking-widest text-[#8BA983] font-semibold">
-            {quoteAuthor}
-          </span>
-        </div>
 
       </div>
     </section>
