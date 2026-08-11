@@ -6,39 +6,10 @@ import { Brain, Layers, Compass, ShieldCheck, Lock, Heart, Award } from 'lucide-
 import { renderFormattedText } from '../utils/formatText';
 
 const METHODS_STORAGE_KEY = 'katrina_approach_methods_v6';
-const QUOTE_STORAGE_KEY = 'katrina_approach_quote_v1';
-
-const DEFAULT_QUOTE = `Lielākās pārmaiņas reti ir kā skaļa uguņošana, tās bieži norit klusumā. Katrs mazais solis ir kā lēna sveces liesmas nodošana nākamajai, pamazām piepildot istabu ar gaismu un atverot durvis jaunām iespējām.`;
-const DEFAULT_QUOTE_AUTHOR = `Katrīna Rozenbaha`;
 
 export const ApproachSection: React.FC = () => {
   const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
 
-  const [quoteText] = useState<string>(() => {
-    try {
-      const saved = localStorage.getItem(QUOTE_STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (parsed.text) return parsed.text;
-      }
-    } catch (e) {
-      console.error('Kļūda ielādējot citātu:', e);
-    }
-    return DEFAULT_QUOTE;
-  });
-
-  const [quoteAuthor] = useState<string>(() => {
-    try {
-      const saved = localStorage.getItem(QUOTE_STORAGE_KEY);
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (parsed.author) return parsed.author;
-      }
-    } catch (e) {
-      console.error('Kļūda ielādējot citāta autoru:', e);
-    }
-    return DEFAULT_QUOTE_AUTHOR;
-  });
 
   const getCerts = (method: ApproachMethod): CertificateInfo[] => {
     if (method.certificates && method.certificates.length > 0) {
