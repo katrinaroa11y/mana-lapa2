@@ -22,13 +22,13 @@ export const SERVICES: ServiceItem[] = [
     tag: 'Tiešsaistē',
     duration: '55 minūtes',
     format: 'Tiešsaistē',
-    description: 'Droša un strukturēta vide, kurā kopīgi pētām domāšanas un uzvedības modeļus, risinām ikdienas stresa, trauksmes vai izdegšanas cēloņus, un veidojam veselīgas attiecības ar sevi un citiem.',
-    benefitsTitle: 'Ieguvumi:',
     benefits: [
       'Emociju regulācijas un stresa mazināšanas tehnika (meditācija, vizualizācija u.c. prakses)',
       'Pašvērtējuma un robežu stiprināšana',
       'Izdegšanas un trauksmes mazināšana',
-      'Skaidrība personīgajos un profesionālajos mērķos'
+      'Mērķu izvirzīšana un soļu apzināšanās ceļam uz tiem'
+      'Profesionāls atbalsts grūtībās'
+
     ],
     price: '50 € / sesija',
     recommendedFor: 'Pieaugušajiem, kuri saskaras ar trauksmi, stresa vadību, dzīves krīzēm vai vēlas padziļināti iepazīt sevi.'
