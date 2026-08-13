@@ -69,7 +69,7 @@ export const APPROACH_METHODS: ApproachMethod[] = [
   {
     id: 'emdr',
     title: 'EMDR Terapija',
-    description: 'Zinātniski pierādīta metode, kas ar abpusēju stimulāciju palīdz smadzenēm dabiskā veidā pārstrādāt iestrēgušas atmiņas un samazināt to emocionālo trauksmi.',
+    description: 'Zinātniski pierādīta metode, kas ar abpusēju stimulāciju palīdz smadzenēm dabiskā veidā pārstrādāt iestrēgušas atmiņas un samazināt to ietekmi.',
     iconName: 'Brain',
     certificate: {
       title: 'EMDR bāzes 1. līmeņa apmācības',
