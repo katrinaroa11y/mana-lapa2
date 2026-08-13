@@ -69,7 +69,6 @@ export const APPROACH_METHODS: ApproachMethod[] = [
   {
     id: 'emdr',
     title: 'EMDR Terapija',
-    shortDesc: 'Acu kustību desensibilizācija un pārapstrāde traumu un emocionālu bloku risināšanai.',
     description: 'Zinātniski pierādīta metode, kas ar abpusēju stimulāciju palīdz smadzenēm dabiskā veidā pārstrādāt iestrēgušas atmiņas un samazināt to emocionālo trauksmi.',
     iconName: 'Brain',
     certificate: {
@@ -81,8 +80,7 @@ export const APPROACH_METHODS: ApproachMethod[] = [
   {
     id: 'schema',
     title: 'Shēmu Terapija',
-    shortDesc: 'Padziļināta uzvedības un domāšanas modeļu atpazīšana un transformācija.',
-    description: 'Shēmu terapija palīdz izprast dziļākus domāšanas, emociju un uzvedības modeļus, kas bieži veidojušies agrākās dzīves pieredzes ietekmē un var atkārtoties attiecībās, izvēlēs vai emocionālās reakcijās. Tā palīdz atpazīt savas pamatvajadzības, mainīt ierobežojošus uzskatus un attīstīt veselīgākus veidus, kā rūpēties par sevi un veidot laimīgākas attiecības.',
+    description: 'Shēmu terapija palīdz izprast dziļākus domāšanas, emociju un uzvedības modeļus, kas bieži veidojušies agrīnā bērnībā un var atkārtoties attiecībās, dzīves izvēlēs vai emocionālajās reakcijās.',
     iconName: 'Layers',
     certificates: [
       {
@@ -105,8 +103,7 @@ export const APPROACH_METHODS: ApproachMethod[] = [
   {
     id: 'motivational',
     title: 'Motivējošā Intervēšana',
-    shortDesc: 'Iekšējās motivācijas stiprināšana un apzinātu pārmaiņu veicināšana.',
-    description: 'Motivējošā intervēšana palīdz pārvarēt iekšējās šaubas, vilcināšanos un pretrunas, lai tiektos uz veselīgākiem paradumiem un/ vai atkarības pārvarēšanu. Procesā palīdzu apzināties vērtības, iekšējo motivāciju un apkārtējos resursus rīcībai.\n\nŠī pieeja ir īpaši efektīva un plaši lietota uzvedības izmaiņām, kaitīgo ieradumu un atkarību pārvarēšanai (azartspēļu, alkohola, cigarešu, narkotisko vielu, t.sk. marihuānas, un citas). Psihologa atbalsts padara pārmaiņu procesu saprotamāku, ilgtspējīgāku un mazāk stresainu.',
+    description: 'Motivējošā intervēšana palīdz pārvarēt iekšējās šaubas, vilcināšanos un pretrunas, lai tiektos uz veselīgākiem paradumiem un/ vai atkarības (azartspēļu, alkohola, cigarešu, narkotisko vielu, t.sk. marihuānas) pārvarēšanu.',
     iconName: 'Compass',
     certificate: {
       title: 'Intervijas konsultēšanas praksē: Motivējošā intervēšana',
@@ -117,8 +114,7 @@ export const APPROACH_METHODS: ApproachMethod[] = [
   {
     id: 'trauma-informed',
     title: 'Augstākā Izglītība Psiholoģijā',
-    shortDesc: 'Visaptveroša psiholoģijas izglītība, kas ļauj izprast cilvēka emocionālās veselības traucējumu cēloņus un sekas.',
-    description: 'Nodrošina strukturētu, ētisku un pētījumos balstītu pieeju ikvienā konsultācijā, apvienojot klasiskās psiholoģijas teorijas ar mūsdienīgu, praktisku pieeju.',
+    description: 'Visaptveroša psiholoģijas izglītība, kas ļauj izprast cilvēka emocionālās veselības traucējumu cēloņus un sekas. Nodrošina strukturētu, ētisku un pētījumos balstītu pieeju ikvienā konsultācijā, apvienojot klasiskās psiholoģijas teorijas ar mūsdienīgu, praktisku pieeju.',
     iconName: 'ShieldCheck',
     certificates: [
       {
