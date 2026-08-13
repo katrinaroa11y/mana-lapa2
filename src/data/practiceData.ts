@@ -184,55 +184,46 @@ export const WORK_TOPICS: WorkTopic[] = [
   {
     id: 'trauksme-panika',
     title: 'Trauksme un panikas lēkmes',
-    description: 'bailes, nemiers un pārmērīga raizēšanās.',
     iconName: 'Wind'
   },
   {
     id: 'attiecibu-problemas',
     title: 'Attiecību problēmas',
-    description: 'konflikti, komunikācijas grūtības, šķiršanās un vientulība.',
     iconName: 'Users'
   },
   {
     id: 'izdeggana-stress',
     title: 'Izdegšana un stress',
-    description: 'spēku izsīkums, hronisks nogurums un grūtības nospraust robežas.',
     iconName: 'ZapOff'
   },
   {
     id: 'depresija-nomaktiba',
     title: 'Depresija un nomāktība',
-    description: 'dzīvesprieka zudums, apātija un emocionāls nogurums.',
     iconName: 'Cloud'
   },
   {
     id: 'zems-pasnovertejums',
     title: 'Zems pašnovērtējums',
-    description: 'sevis pieņemšana, pašpārliecība un spēcīga iekšējā kritika un/ vai perfekcionisms.',
     iconName: 'UserCheck'
   },
   {
     id: 'seras-zaudejumi',
     title: 'Sēras un zaudējumi',
-    description: 'tuvinieka zaudējums, šķiršanās vai nozīmīgas dzīves pārmaiņas.',
     iconName: 'Feather'
   },
   {
     id: 'emociju-regulacija',
     title: 'Emociju regulācija un atkarības',
-    description: 'nespēja tikt galā ar dusmām un sarežģītām emocijām. Grūtības, kuras radījušas azartspēles, alkohols un citas atkarību raisošas vielas.',
     iconName: 'Sliders'
   },
   {
     id: 'traumatiska-pieredze',
     title: 'Traumatiska pieredze',
-    description: 'pagātnes ievainojumi, psiholoģiskās traumas un to ietekme.',
     iconName: 'LifeBuoy'
   },
   {
     id: 'personiga-izaugsme',
-    title: 'Personīgā izaugsme',
-    description: 'mērķu izvirzīšana, sevis iepazīšana un dzīves kvalitātes uzlabošana.',
+    title: 'Personīgā izaugsme un ceļš uz mērķiem',
     iconName: 'Compass'
   }
 ];
