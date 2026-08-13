@@ -68,7 +68,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
   {
     id: '2',
     slug: 'izdegsana-un-stresa-vadiba-ikdiena',
-    title: 'Kā atpazīt izdegšanas pirmās pazīmes un laicīgi atgūt līdzsvaru',
+    title: 'Vai man ir izdegšanas pazīmes? Atpazīsti agrīnos simptomus un rīkojies laicīgi.',
     author: 'Katrīna Rozenbaha',
     date: '2026. gads',
     dateISO: '2026-04-02',
