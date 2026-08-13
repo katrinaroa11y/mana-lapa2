@@ -90,8 +90,8 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
             6. Biežāka slimošana
             7. Vēlme izolēties
             8. Paātrināta sirdsdarbība
-            9. Miega traucējumi (piemēram, grūtības iemigt, bieža mošanās nakts laikā vai sajūta, ka neesi izgulējies no rīta pat pēc 8-9 stundu miega).
-            10. Emociju izmaiņas - cilvēks sāk just vairāk cinisma, biežāku nomāktību, lielāku aizkaitināmību vai izteiktāku motivācijas trūkumu.
+            9. Miega traucējumi, piemēram, grūtības iemigt, bieža mošanās nakts laikā vai sajūta, ka neesi izgulējies no rīta pat pēc 8-9 stundu miega).
+            10. Emocionālās izmaiņas (cilvēks sāk just vairāk cinisma, biežāku nomāktību, lielāku aizkaitināmību vai izteiktāku motivācijas trūkumu).
             `
         },
         {
