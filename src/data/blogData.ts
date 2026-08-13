@@ -68,7 +68,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
   {
     id: '2',
     slug: 'izdegsana-un-stresa-vadiba-ikdiena',
-    title: 'Vai man ir izdegšanas pazīmes? Atpazīsti agrīnos simptomus un rīkojies laicīgi.',
+    title: 'Atpazīsti agrīnās izdegšanas pazīmes un laicīgi atgūsti līdzsvaru.',
     author: 'Katrīna Rozenbaha',
     date: '2026. gads',
     dateISO: '2026-04-02',
@@ -77,7 +77,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
     excerpt: 'Izdegšana nenotiek vienā dienā. Tā ir pakāpeniska emocionāla un fiziska spēku izsīkšana. Uzziniet galvenos signālus un praksē pārbaudītus soļus, lai atlabtu.',
     featuredImage: '/blog_burnout_prevention.jpg',
     content: {
-      intro: 'Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgs spiediens bieži tiek uztverts kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus un sāk parādītes trauksme, nomāktība un fizisks bezspēks. Izdegšanas pazīmju laicīga pamanīšana un profilakse ir atslēga uz ilgtspējīgu veselību un darba sparu.',
+      intro: 'Vai man ir izdegšana? Bieži ar šo jautājumu savā praksē saskarās psihologi un psihoterapeiti. Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgs spiediens bieži tiek uztverts kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus. Ja trauksmes signāli tiek ignorēti, var sākties izdegšanas sindroms, jeb visaptverošs fizisko, garīgo un psiholoģisko spēku izsīkuma stāvoklis. Izdegšanas agrīno pazīmju atpazīšana un profilakse ir atslēga uz ilgtspējīgu dzīves un darba sparu.',
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
