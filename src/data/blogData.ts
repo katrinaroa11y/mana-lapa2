@@ -38,12 +38,12 @@ export const BLOG_POSTS: BlogPost[] = [
       sections: [
         {
           heading: 'Kā darbojas EMDR metode?',
-          body: `<b>Izteikti negatīva vai traumatiska pārdzīvojuma laikā smadzenes var tikt pārslogotas, un dabiskais informācijas apstrādes process var apstāties.</b> Iestrēgušos smadzeņu procesus palīdz atbrīvot EMDR metode. kuras pamatā ir abpusēja jeb bilaterālā stimulācija. Visbiežāk stimulācija notiek ar ritmiskām acu kustībām, skaņas signāliem vai viegliem pieskārieniem, kas pārmaiņus aktivizē labo un kreiso smadzeņu puslodi. Šis process atgādina to, kas dabiski notiek smadzenēs miega ātrajā (REM) fāzē, un tas palīdz smadzenēm drošā veidā "pārstrādāt" iestrēgušās atmiņas un emocijas.
+          body: `<b>Izteikti negatīva vai traumatiska pārdzīvojuma laikā smadzenes var tikt pārslogotas, un dabiskais informācijas apstrādes process var apstāties.</b> Iestrēgušos smadzeņu procesus palīdz atbrīvot EMDR metode, kuras pamatā ir abpusēja jeb bilaterālā stimulācija. Visbiežāk stimulācija notiek ar ritmiskām acu kustībām, skaņas signāliem vai viegliem pieskārieniem, kas pārmaiņus aktivizē labo un kreiso smadzeņu puslodi. Šis process atgādina to, kas dabiski notiek smadzenēs miega ātrajā (REM) fāzē, un tas palīdz smadzenēm drošā veidā "pārstrādāt" iestrēgušās atmiņas un emocijas.
 `
         },
         {
           heading: 'Kādos gadījumos EMDR ir piemērota metode?',
-          body: `EMDR terapija ir piemērota cilvēkiem, kuri ir piedzīvojuši dažāda veida traumatiskas pieredzes - <b>gan vienu īpaši smagu notikumu, gan ilgstoši uzkrājušās negatīvas pieredzes.</b> Traumatiskas pieredzes ir, piemēram, fiziska vai emocionāla vardarbība, apcelšanas vai mobinga pieredzes, nelaimes gadījumi, pieredzēti militāri konflikti, dabas katastrofas un tuva cilvēka pēkšņs zaudējums. EMDR terapija var būt arī noderīga cilvēkiem, kuri ilgstoši <b>piedzīvojuši emocionāli nolaidīgu uzvedību no vecākiem bērnībā</b> - vecāki nebija klāt, atstāja ilgstoši vienu tam nepiemērotā vecumā un nereaģēja uz bērna vajadzībām. Taču EMDR der ne tikai traumu sekām. Metodes efektivitāte ir pētīta plašam spektram grūtību, un var būt palīdzoša arī fobijām, izdegšanai, zemam pašvērtējumam un citiem psihoemocionālo veselību apgrūtinošiem faktoriem.
+          body: `EMDR terapija ir piemērota cilvēkiem, kuri ir piedzīvojuši dažāda veida traumatiskas pieredzes - <b>gan vienu īpaši smagu notikumu, gan ilgstoši uzkrājušās negatīvas pieredzes.</b> Traumatiskas pieredzes ir, piemēram, fiziska vai emocionāla vardarbība, apcelšanas vai mobinga pieredzes, nelaimes gadījumi, pieredzēti militāri konflikti, dabas katastrofas un tuva cilvēka pēkšņs zaudējums. EMDR terapija var būt arī noderīga cilvēkiem, kuri ilgstoši <b>piedzīvojuši emocionālu nolaidību no vecākiem </b>, piemēram, vecāki nebija klāt, atstāja ilgstoši vienu tam nepiemērotā vecumā un nereaģēja uz bērna vajadzībām. Taču EMDR der ne tikai traumu sekām. Metodes efektivitāte ir pētīta plašam spektram grūtību, un var palīdzēt arī fobijām, izdegšanai, zemam pašvērtējumam un citiem psihoemocionālo veselību apgrūtinošiem faktoriem.
 
 Jāņem vērā, ka traumatiska vai negatīva pieredze ne vienmēr noved pie negatīvu psiholoģisko seku vai PTSS attīstības, tādēļ arī EMDR nebūs piemērota katram. Speciālists un klients kopīgi izvērtē šīs metodes atbilstību, balstoties uz cilvēka simptomiem, individuālajām iezīmēm, situācijas kontekstu un personīgajām vēlmēm.`
         },
@@ -68,7 +68,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
   {
     id: '2',
     slug: 'izdegsana-un-stresa-vadiba-ikdiena',
-    title: 'Atpazīsti agrīnās izdegšanas pazīmes un laicīgi atgūsti līdzsvaru.',
+    title: 'Atpazīsti agrīnās izdegšanas pazīmes un laicīgi atgūsti līdzsvaru',
     author: 'Katrīna Rozenbaha',
     date: '2026. gads',
     dateISO: '2026-04-02',
@@ -77,7 +77,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
     excerpt: 'Izdegšana nenotiek vienā dienā. Tā ir pakāpeniska emocionāla un fiziska spēku izsīkšana. Uzziniet galvenos signālus un praksē pārbaudītus soļus, lai atlabtu.',
     featuredImage: '/blog_burnout_prevention.jpg',
     content: {
-      intro: 'Vai man ir izdegšana? Bieži ar šo jautājumu savā praksē saskarās psihologi un psihoterapeiti. Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgs spiediens bieži tiek uztverts kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus. Ja trauksmes signāli tiek ignorēti, var sākties izdegšanas sindroms, jeb visaptverošs fizisko, garīgo un psiholoģisko spēku izsīkuma stāvoklis. Izdegšanas agrīno pazīmju atpazīšana un profilakse ir atslēga uz ilgtspējīgu dzīves un darba sparu.',
+      intro: 'Vai man ir izdegšana? Bieži ar šo jautājumu savā praksē saskaras psihologi un psihoterapeiti. Mūsdienu steidzīgajā ritmā liels darba apjoms un nemitīgs spiediens bieži tiek uztverts kā norma. Tomēr, kad hronisks stress paliek nepamanīts, organisms sāk sūtīt nopietnus trauksmes signālus. Ja trauksmes signāli tiek ignorēti, var sākties izdegšanas sindroms jeb visaptverošs fizisko, garīgo un psiholoģisko spēku izsīkuma stāvoklis. Izdegšanas agrīno pazīmju atpazīšana un profilakse ir atslēga uz ilgtspējīgu dzīves un darba sparu.',
       sections: [
         {
           heading: 'Biežākie izdegšanas simptomi',
@@ -90,17 +90,17 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
             6. Biežāka slimošana
             7. Vēlme izolēties
             8. Paātrināta sirdsdarbība
-            9. Miega traucējumi, piemēram, grūtības iemigt, bieža mošanās nakts laikā vai sajūta, ka neesi izgulējies no rīta pat pēc 8-9 stundu miega).
+            9. Miega traucējumi, piemēram, grūtības iemigt, bieža mošanās nakts laikā vai sajūta, ka neesi izgulējies no rīta pat pēc 8-9 stundu miega.
             10. Emocionālās izmaiņas (cilvēks sāk just vairāk cinisma, biežāku nomāktību, lielāku aizkaitināmību vai izteiktāku motivācijas trūkumu).
             `
         },
         {
           heading: 'Kāpēc maza atpūta vai atvaļinājums izdegšanai nepalīdz?',
-          body: `<b>Ja izdegšanu izraisa dziļāki domāšanas modeļi</b> (piemēram, perfekcionisms, nespēja atteikt citiem cilvēkiem vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt savas pārliecības un personīgās robežas. Iespējams, ka zema pašvērtējuma dēļ, netiek sev ļauts atteikt uzdevumiem, pienākumiem ģimenē un darbā. Ja netiek lūgta palīdzība, tad pienākumu nasta nemitīgi krājas.. Atgriežoties no atpūtas, turpinot darīt visu kā parasti - pāri saviem spēkiem, domājot tikai par citu vajadzībām -, ātri vien notiek atgriešanās pie iepriekšējā izsīkuma stāvokļa. Neliela atpūta vai divas brīvas nedēļas nepalīdzēs, jo tās nemainīs pierastos domāšanas modeļus un pārliecības par sevi un pasauli. Tādēļ līdztekus atvaļinājumam vai brīvdienām jādod vieta dziļākam darbam ar jautājumiem ''Kas man liek izdegt?'' un ''Kā es varu mācīties nospraust robežas darbā un ģimenē?''. `
+          body: `<b>Ja izdegšanu izraisa dziļāki domāšanas modeļi</b> (piemēram, perfekcionisms, nespēja atteikt citiem cilvēkiem vai bailes no kļūdām), ar divām brīvdienām nebūs līdzēts. Ir svarīgi pārskatīt savas pārliecības un personīgās robežas. Iespējams, ka pazemināta pašvērtējuma dēļ cilvēks nekad neatsaka ģimenei un darbam. Atgriežoties no atpūtas, turpinot darīt visu kā parasti - pāri saviem spēkiem, domājot tikai par citu vajadzībām -, ātri vien notiek atgriešanās pie iepriekšējā izsīkuma stāvokļa. Neliela atpūta vai divas brīvas nedēļas nepalīdzēs, jo tās nemainīs pierastos domāšanas modeļus un pārliecības par sevi un pasauli. Tādēļ līdztekus atvaļinājumam vai brīvdienām jādod vieta dziļākam darbam ar jautājumiem ''Kas man liek izdegt?'' un ''Kā es varu mācīties nospraust robežas darbā un ģimenē?''. `
         },
         {
           heading: '3 praktiski soļi stresa līmeņa mazināšanai šodien',
-          body: `1. <b>Ievies mazas pauzes darba dienas laikā </b> (jau 5 minūšu pastaiga vai 2 minūtes apzinātas elpošanas ik pēc stundas var radīt lielas pārmaiņas ilgtermiņā).\n2. <b>Definē skaidru robežu starp darba laiku un privāto dzīvi.</b> Pat <b>ja amats prasa būt sasniedzamam arī ārpus normēta darba laika</b>, ir vairākas iespējas kā sabalansēt slodzi, piemēram, 1) deliģēt kādus pienākumus kolēģiem; 2) nodalīt darba tālruni no personīgā; 3) noteikt konkrētus laika logus, kuros vakaros un brīvdienās neesi pieejams darbam 4) arī periodā, kad darbs ārpus darba laika ir neizbēgams, ik pēc 30 minūtēm darba iziet 5 minūšu pastaigā; 5) laikā ārpus darba pavadīt laiku ar ģimeni bez viedierīcēm. Atpūta ne tikai mazinās spriedzi, bet arī ļaus saglabāt fokusu un produktivitāti. \n3. <b>Praktizē līdzjūtību pret sevi</b> un atzīsti sev, ka nevienam cilvēkam nav iespējams būt perfektam. Un reizēm arī ''pietiekami labi'' ir labākais iespējamais rezultāts. `
+          body: `1. <b>Ievies mazas pauzes darba dienas laikā </b> (jau 5 minūšu pastaiga vai 2 minūtes apzinātas elpošanas ik pēc stundas var radīt lielas pārmaiņas ilgtermiņā).\n2. <b>Definē skaidru robežu starp darba laiku un privāto dzīvi.</b> Pat <b>ja amats prasa būt sasniedzamam arī ārpus normēta darba laika</b>, ir vairākas iespējas kā sabalansēt slodzi, piemēram, 1) deleģēt kādus pienākumus kolēģiem; 2) nodalīt darba tālruni no personīgā; 3) noteikt konkrētus laika logus, kuros vakaros un brīvdienās neesi pieejams darbam 4) arī periodā, kad darbs ārpus darba laika ir neizbēgams, ik pēc 30 minūšu darba iziet 5 minūšu pastaigā; 5) kontaktā ar ģimeni vai draugiem, pavadīt laiku bez viedierīcēm. Atpūta ne tikai mazinās spriedzi, bet arī ļaus saglabāt fokusu un produktivitāti. \n3. <b>Praktizē līdzjūtību pret sevi</b> un atzīsti sev, ka nevienam cilvēkam nav iespējams būt perfektam. Un reizēm arī ''pietiekami labi'' ir labākais iespējamais rezultāts. `
         }
       ],
       keyTakeaways: [
