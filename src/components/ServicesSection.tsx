@@ -85,9 +85,6 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
 
                 {/* Benefits */}
                 <div className="space-y-2.5 mb-8">
-                  <h4 className="text-xs font-semibold uppercase tracking-wider text-[#3E4950]">
-                    {service.benefitsTitle || 'Ieguvumi:'}
-                  </h4>
 
                   {service.benefits.map((benefit, bIdx) => (
                     <div
