@@ -26,7 +26,7 @@ export const SERVICES: ServiceItem[] = [
       'Emociju regulācijas un stresa mazināšanas tehnika (meditācija, vizualizācija u.c. prakses)',
       'Pašvērtējuma un robežu stiprināšana',
       'Izdegšanas un trauksmes mazināšana',
-      'Mērķu izvirzīšana un soļu apzināšanās ceļam uz tiem'
+      'Mērķu izvirzīšana un soļu apzināšanās ceļam uz tiem',
       'Profesionāls atbalsts grūtībās'
 
     ],
@@ -40,11 +40,9 @@ export const SERVICES: ServiceItem[] = [
     tag: 'Tiešsaistē',
     duration: '55 minūtes',
     format: 'Tiešsaistē',
-    description: 'EMDR (Eye Movement Desensitization and Reprocessing) ir starptautiski atzīta un zinātniski pamatota terapijas metode, kas palīdz smadzenēm **pārstrādāt neatrisinātas traumatiskas pieredzes vai PTSS** (pēctraumatskā stresa sindroma) radītos simptomus. EMDR var palīdzēt mazināt vai pavisam novērst grūtības fobiju gadījumā (bailes no suņiem, zirnekļiem, lidošanas), pēc autoavārijas (bailes no automašīnas vadīšanas), pēc seksuālas un fiziskas vardarbības piedzīvošanas, kā arī kompleksām traumām.',
-    benefitsTitle: 'Ieguvumi:',
     benefits: [
       'Novērsti vai mazināti traumatiskās pieredzes simptomi',
-      'Trauksmes intensitātes samazināšanās un vairāk miera ikdienā',
+      'Trauksmes un nomāktības intensitātes samazināšanās un vairāk miera ikdienā',
       'Iekšējās drošības stiprināšana un resursu atjaunošana'
     ],
     price: '50 € / sesija',
@@ -57,8 +55,6 @@ export const SERVICES: ServiceItem[] = [
     tag: 'Tiešsaistē un klātienē',
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
-    description: 'Psihologa vadīti semināri ļauj darbiniekiem ieskatīties psiholoģijas tēmās, lai veicinātu labbūtību. Savukārt, saliedēšanās nodarbības apvieno mērķtiecīgas un dinamiskas komandas aktivitātes un pašizziņas uzdevumus, **palīdzot darbiniekiem labāk izprast sevi, kolēģus un komandas dinamiku**. Darbs ar psihologu organizācijā **stiprina uzticēšanos, uzlabo komunikāciju, veicina emocionālo noturību** un palīdz veidot darba vidi, kurā cilvēki jūtas novērtētāki un motivētāki.',
-    benefitsTitle: 'Ieguvumi:',
     benefits: [
       'Uzlabota savstarpējā komunikācija un emocionālā drošība komandā.',
       'Praktiski rīki stresa un izdegšanas profilaksei darba vidē.',
