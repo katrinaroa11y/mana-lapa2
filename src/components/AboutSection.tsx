@@ -10,9 +10,9 @@ const TEXT_STORAGE_KEY = 'katrina_about_text_v99';
 
 const DEFAULT_ABOUT_TEXT = `**Mani sauc Katrīna Rozenbaha**, un es esmu **reģistrēta klīniskā psiholoģe**. Savā praksē esmu sniegusi atbalstu **vairāk nekā 1000 cilvēkiem**, konsultējot individuāli un vadot izglītojošas lekcijas par mentālo veselību un personīgo izaugsmi.
 
-Manu profesionālo pieeju veido gan daudzveidīgā izglītība un darba pieredze, ko ieguvu Latvijā un Vācijā, gan miers un vienkāršība, ko piedzīvoju uzaugot lauku viensētā Kurzemē. Šis pieredžu kopums ļauj man saglabāt **augstus profesionālos standartus**, vienlaikus paliekot patiesi klātesošai un cilvēcīgai.
+Manu profesionālo pieeju veido daudzveidīga izglītība un darba pieredze Latvijā un Vācijā, kā arī bērnībā piedzīvotais miers un vienkāršība, uzaugot lauku viensētā Kurzemē. Šis pieredžu kopums man ļauj apvienot profesionālu pieeju ar cilvēcīgu un klātesošu attieksmi.
 
-**Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības**, taču nereti to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā kopā varam palīdzēt Tev iepazīt sevi labāk, izprast notiekošo, atklāt vēl, iespējams, neatklātus resursus un rast ceļu uz pārmaiņām.
+**Es ticu, ka ikvienā cilvēkā ir spēks un resurss pārvarēt grūtības**, taču nereti to ir grūti saskatīt vienatnē. Mans mērķis ir radīt **drošu un atbalstošu vidi**, kurā atrast piemērotāko ceļu uz pārmaiņām.
 
 Savā darbā ievēroju **traumas informētu pieeju** un konsultācijās izmantoju **zinātniski pamatotas metodes**, kuras pielāgoju individuāli katra cilvēka vajadzībām un vēlmēm.`;
 
