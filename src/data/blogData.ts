@@ -104,8 +104,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
           • deleģēt kādus pienākumus kolēģiem; 
           • nodalīt darba tālruni no personīgā; 
           • noteikt konkrētus laika logus, kuros vakaros un brīvdienās neesi pieejams darbam 
-          • kontaktā ar ģimeni vai draugiem, pavadīt laiku bez viedierīcēm. 
-          \n3. <b>Praktizē līdzjūtību pret sevi</b> un atzīsti sev, ka nevienam cilvēkam nav iespējams būt perfektam. Un reizēm arī ''pietiekami labi'' ir labākais iespējamais rezultāts. Noslēgumā atgādinu Tev, ka atpūta nav pretstats produktivitātei. Tieši pretēji, atpūta palīdz atjaunot enerģiju, saglabāt fokusu un ilgtermiņā uzturēt labas darba spējas. Galu galā, to vēlamies mēs visi - justies labi un vienlaikus spēt paveikt to, kas mums ir svarīgs.`
+          • kontaktā ar ģimeni vai draugiem, pavadīt laiku bez viedierīcēm. \n3. <b>Praktizē līdzjūtību pret sevi</b> un atzīsti sev, ka nevienam cilvēkam nav iespējams būt perfektam. Un reizēm arī ''pietiekami labi'' ir labākais iespējamais rezultāts. Noslēgumā atgādinu Tev, ka atpūta nav pretstats produktivitātei. Tieši pretēji, atpūta palīdz atjaunot enerģiju, saglabāt fokusu un ilgtermiņā uzturēt labas darba spējas. Galu galā, to vēlamies mēs visi - justies labi un vienlaikus spēt paveikt to, kas mums ir svarīgs.`
         }
       ],
       keyTakeaways: [
