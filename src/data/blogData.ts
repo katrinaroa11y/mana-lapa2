@@ -132,7 +132,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
       sections: [
         {
           heading: 'Agrīnās shēmas',
-          body: 'Shēmas veidojas bērnībā, kad kāda no mūsu pamatvajadzībām (drošība, mīlestība, pieņemšana, autonomija) nav tikusi pietiekami apmierināta. Pieaugušā vecumā šīs shēmas var aktivizēties līdzīgās situācijās, liekot mums reaģēt neproporcionāli vai kaitējot pašam. Tas notiek neapzināti, tāpēc ir grūti mainīt šos modeļus bez darba ar speciālistu, kurš palīdz paskatīties no malas.' 
+          body: 'Shēmas veidojas bērnībā, kad kāda no mūsu pamatvajadzībām (drošība, mīlestība, pieņemšana, autonomija) nav tikusi pietiekami apmierināta. Pieaugušā vecumā šīs shēmas var aktivizēties līdzīgās situācijās, liekot reaģēt neproporcionāli situācijai vai kaitējot sev. Tas notiek neapzināti, tāpēc ir grūti mainīt šos modeļus. Vieglāk pamanīt savas reakcijas un modeļus ļauj darbs ar sepciālistu, kurš palīdz paskatīties no malas un veidot jaunus veidus, kā reaģēt un sadzīvot ar sarežģītām emocijām.' 
         },
         {
           heading: 'Biežāk sastopamās shēmas',
