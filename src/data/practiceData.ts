@@ -23,11 +23,11 @@ export const SERVICES: ServiceItem[] = [
     duration: '55 minūtes',
     format: 'Tiešsaistē',
     benefits: [
-      'Emociju regulācijas un stresa mazināšanas tehnika (meditācija, vizualizācija u.c. prakses)',
+      'Emociju regulācijas un stresa mazināšanas tehnikas (meditācija, vizualizācija, vadīta elpošana u.c. prakses)',
       'Pašvērtējuma un robežu stiprināšana',
       'Izdegšanas un trauksmes mazināšana',
-      'Mērķu izvirzīšana un soļu apzināšanās ceļam uz tiem',
-      'Profesionāls atbalsts grūtībās'
+      'Mērķu izvirzīšana un apzināšanās, kādi soļi jāveic ceļā uz tiem',
+      'Emocionālais un informatīvais atbalsts grūtībās'
 
     ],
     price: '50 € / sesija',
@@ -43,7 +43,7 @@ export const SERVICES: ServiceItem[] = [
     benefits: [
       'Novērsti vai mazināti traumatiskās pieredzes simptomi',
       'Trauksmes un nomāktības intensitātes samazināšanās un vairāk miera ikdienā',
-      'Iekšējās drošības stiprināšana un resursu atjaunošana'
+      'Iekšējās drošības sajūtas veidošana un resursu atjaunošana'
     ],
     price: '50 € / sesija',
     recommendedFor: 'Cilvēkiem, kuri piedzīvojuši traumatiska rakstura notikumus, emocionālas brūces vai hronisku trauksmi.'
@@ -56,9 +56,10 @@ export const SERVICES: ServiceItem[] = [
     duration: 'Pēc vienošanās',
     format: 'Tiešsaistē un klātienē',
     benefits: [
-      'Uzlabota savstarpējā komunikācija un emocionālā drošība komandā.',
+      'Veselīgas savstarpējās komunikācijas un saliedētības veicināšana.',
+ 'Emocionālās drošības sajūtas stiprināšana komandā.',
       'Praktiski rīki stresa un izdegšanas profilaksei darba vidē.',
-      'Komandas saliedētības un individuālās produktivitātes pieaugums.',
+      'Labāka darba efektivitāte gan individuāli, gan komandā.',
     ],
     price: '',
     recommendedFor: 'Uzņēmumiem, organizācijām un cilvēku grupām, kas vēlas stiprināt mentālo veselību, komandas mijiedarbību un emocionālo noturību.'
