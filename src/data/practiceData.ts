@@ -58,7 +58,7 @@ export const SERVICES: ServiceItem[] = [
     benefits: [
       'Veselīgas savstarpējās komunikācijas un saliedētības veicināšana.',
  'Emocionālās drošības sajūtas stiprināšana komandā.',
-      'Praktiski rīki stresa un izdegšanas profilaksei darba vidē.',
+      'Praktiski rīki stresa un izdegšanas profilaksei.',
       'Labāka darba efektivitāte gan individuāli, gan komandā.',
     ],
     price: '',
