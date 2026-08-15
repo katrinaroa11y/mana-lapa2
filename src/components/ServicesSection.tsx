@@ -47,7 +47,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                 </span>
 
                 {service.price && (
-                 <span className="font-serif text-lg font-medium text-[#3E4950]">
+            <span className="text-lg font-semibold text-[#3E4950]">
   {service.price}
 </span>
                 )}
