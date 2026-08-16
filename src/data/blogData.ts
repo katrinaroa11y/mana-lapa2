@@ -132,15 +132,15 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
       sections: [
         {
           heading: 'Agrīnās shēmas',
-          body: 'Shēmas veidojas bērnībā, kad kāda no mūsu pamatvajadzībām (drošība, mīlestība, pieņemšana, autonomija) nav tikusi pietiekami apmierināta. Pieaugušā vecumā šīs shēmas var aktivizēties līdzīgās situācijās, liekot reaģēt neproporcionāli situācijai vai kaitējot sev. Tas notiek neapzināti, tāpēc ir grūti mainīt šos modeļus. Vieglāk pamanīt savas reakcijas un modeļus ļauj darbs ar sepciālistu, kurš palīdz paskatīties no malas un veidot jaunus veidus, kā reaģēt un sadzīvot ar sarežģītām emocijām.' 
+          body: 'Shēmas veidojas bērnībā, kad kāda no mūsu pamatvajadzībām (drošība, mīlestība, pieņemšana, autonomija) nav tikusi pietiekami apmierināta. Pieaugušā vecumā šīs <b>shēmas var aktivizēties līdzīgās situācijās</b>, liekot reaģēt neproporcionāli emocionāļi vai kaitējot pašam sev. <b>Tas notiek neapzināti</b>, tāpēc ir ļoti grūti mainīt šos modeļus. Šeit palīdzēt var speciālists, kurš neapzināto pamazām padara apzinātu. Respektīvi, psihologs vai psihoterapeits var palīdzēt klientam pamanīt un izprast savas reakcijas un uzvedības modeļus. Kā tas notiek? Piemēram, iedomāsimies vīrieti, kurš atkārtoti atgrūž cilvēkus, kuri vēlas ar viņu veidot emocionāli tuvas attiecības: gan draugus, gan partnerus. Viņam pašam var šķist, ka problēma galvenokārt ir citos cilvēkos. Speciālists var palīdzēt pamanīt situācijas, kurās šāda reakcija parādās, izpētīt, kas tajos brīžos notiek ar viņa domām, emocijām un uzvedību. Tā vīrietis var pakāpeniski saprast, kādi dziļāki modeļi jeb shēmas to varētu ietekmēt. Piemēram, šāda reakcija var būt saistīta ar defektivitātes/kauna shēmu (vienkāršoti izsakoties - uzskats, ka es esmu nepareizs un neviens mani nemīlēs) vai kādu no aizsardzības režīmiem (šī vīrieša gadījumā tā varētu būt atsvešināšanās, ko aizsardzības režims liek darīt), un tas palīdz cilvēkam izvairīties no emocionālas ievainojamības. Izpētot savas dažādās daļas - tās, kuras palīdz un tās, kuras traucē - cilvēks var veidot jaunus veidus, kā reaģēt uz citiem cilvēkiem un sadzīvot ar sarežģītām emocijām. Līdz ar to dzīve kļūst mazliet saprotamāka un mazliet vieglāka.' 
         },
         {
           heading: 'Biežāk sastopamās shēmas',
-          body: 'Pie biežākajām shēmām pieder Pamestība / Nestabilitāte (bailes, ka mīļotais cilvēks pametīs), Emocionālā deprivācija (sajūta, ka neviens Tevi pa īstam nesaprot) un Perfekcionisms (nepārtraukta spriedze un tiekšanās būt ideālam).'
+          body: 'Pie dažām no biežākajām shēmām pieder Pamestība / Nestabilitāte (bailes, ka mīļotais cilvēks pametīs), Emocionālā deprivācija (sajūta, ka neviens Tevi pa īstam nesaprot) un Perfekcionisms (nepārtraukta spriedze un tiekšanās būt ideālam).'
         },
         {
           heading: 'Kā shēmu terapija palīdz ieviest pārmaiņas?',
-          body: 'Terapijas laikā klients mācās atpazīt savus shēmu režīmus, dziedināt ievainoto iekšējo bērnu un attīstīt spēcīgāku Veselīgā pieaugušā daļu. Rezultātā cilvēks var parūpēties par savām vajadzībām veselīgā veidā un pārraut neveselīgos modeļus.'
+          body: 'Terapijas laikā klients <b>mācās atpazīt savus shēmu režīmus, dziedināt ievainoto iekšējo bērnu un attīstīt spēcīgāku veselīgā pieaugušā daļu</b>. Rezultātā cilvēks iemācās parūpēties par savām vajadzībām daudz labāk un pārrauj neveselīgos modeļus.'
         }
       ],
       keyTakeaways: [
