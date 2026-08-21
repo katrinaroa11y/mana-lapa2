@@ -139,7 +139,6 @@ export const ApproachSection: React.FC = () => {
             Izglītība
           </h2>
 
-          {/* Simple paragraphs for education items */}
           <div className="space-y-2 sm:space-y-3">
             {education.map((item, idx) => {
               const title = item.title || item.degree;
