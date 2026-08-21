@@ -28,7 +28,6 @@ export const SERVICES: ServiceItem[] = [
       'Izdegšanas un trauksmes mazināšana',
       'Mērķu izvirzīšana un apzināšanās, kādi soļi jāveic ceļā uz tiem',
       'Emocionālais un informatīvais atbalsts grūtībās'
-
     ],
     price: '50 € / sesija',
     recommendedFor: 'Pieaugušajiem, kuri saskaras ar trauksmi, stresa vadību, dzīves krīzēm vai vēlas padziļināti iepazīt sevi.'
@@ -57,9 +56,9 @@ export const SERVICES: ServiceItem[] = [
     format: 'Tiešsaistē un klātienē',
     benefits: [
       'Veselīgas savstarpējās komunikācijas un saliedētības veicināšana.',
- 'Emocionālās drošības sajūtas stiprināšana komandā.',
+      'Emocionālās drošības sajūtas stiprināšana komandā.',
       'Praktiski rīki stresa un izdegšanas profilaksei.',
-      'Labāka darba efektivitāte gan individuāli, gan komandā.',
+      'Labāka darba efektivitāte gan individuāli, gan komandā.'
     ],
     price: '',
     recommendedFor: 'Uzņēmumiem, organizācijām un cilvēku grupām, kas vēlas stiprināt mentālo veselību, komandas mijiedarbību un emocionālo noturību.'
@@ -111,24 +110,25 @@ export const APPROACH_METHODS: ApproachMethod[] = [
       number: '',
       year: '2025'
     }
+  }
+];
+
+/* =========================
+   IZGLĪTĪBA
+   ========================= */
+
+export const EDUCATION = [
+  {
+    id: 'masters',
+    title: 'Maģistra grāds psiholoģijā',
+    institution: 'Bonnas Universitāte',
+    period: '2020–2023'
   },
   {
-    id: 'trauma-informed',
-    title: 'Augstākā Izglītība Psiholoģijā',
-    description: 'Visaptveroša psiholoģijas izglītība, kas ļauj izprast cilvēka emocionālās veselības traucējumu cēloņus un sekas. Nodrošina strukturētu, ētisku un pētījumos balstītu pieeju ikvienā konsultācijā, apvienojot klasiskās psiholoģijas teorijas ar mūsdienīgu, praktisku pieeju.',
-    iconName: 'ShieldCheck',
-    certificates: [
-      {
-        title: 'Maģistrs psiholoģijā, Bonnas Universitāte',
-        number: '',
-        year: '2020-2023'
-      },
-      {
-        title: 'Bakalaurs psiholoģijā, Latvijas Universitāte',
-        number: '',
-        year: '2017-2020'
-      }
-    ]
+    id: 'bachelors',
+    title: 'Bakalaura grāds psiholoģijā',
+    institution: 'Latvijas Universitāte',
+    period: '2017–2020'
   }
 ];
 
