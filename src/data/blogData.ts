@@ -142,7 +142,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
         },
         {
           heading: 'Kādu rezultātu sagaidīt no shēmu terapijas?',
-          body: 'Šīs terapijas laikā klients <b>mācās iepazīt savas shēmas un uzvedības modeļus, dziedināt ievainoto daļu un stiprināt savu veselīgo pusi (shēmu terapijā to sauc par ''veselīgo pieaugušo'').</b> Rezultātā cilvēks iemācās parūpēties par savām vajadzībām daudz labāk un pārtraukt modeļus, kuri ir neveselīgi un traucējoši.'
+          body: `Šīs terapijas laikā klients <b>mācās iepazīt savas shēmas un uzvedības modeļus, dziedināt ievainoto daļu un stiprināt savu veselīgo pusi (shēmu terapijā to sauc par ''veselīgo pieaugušo'').</b> Rezultātā cilvēks iemācās parūpēties par savām vajadzībām daudz labāk un pārtraukt modeļus, kuri ir neveselīgi un traucējoši.`
         }
       ],
       keyTakeaways: [
