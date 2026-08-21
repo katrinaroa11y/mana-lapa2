@@ -34,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
     { name: 'Par mani', href: '#par-mani' },
     { name: 'Pakalpojumi', href: '#pakalpojumi' },
     { name: 'Tēmas', href: '#temas' },
-    { name: 'Pieeja', href: '#pieeja' },
+    { name: 'Izglītība', href: '#pieeja' },
     { name: 'BUJ', href: '#buj' },
     { name: 'Kontakti', href: '#kontakti' },
     { name: 'Blogs', href: '/blogs' },
