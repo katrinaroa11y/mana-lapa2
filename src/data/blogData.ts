@@ -138,7 +138,7 @@ body: 'Pirmajās sesijās psihologs uzmanīgi izvērtē klienta grūtības un si
         },
         {
           heading: 'Biežāk sastopamās shēmas',
-          body: 'Pie dažām no biežākajām shēmām pieder Pamestība / Nestabilitāte (bailes, ka mīļotais cilvēks pametīs), Emocionālā deprivācija (sajūta, ka neviens Tevi pa īstam nesaprot) un Perfekcionisms (nepārtraukta spriedze un tiekšanās būt ideālam).'
+          body: 'Pie dažām no visbiežāk sastopamajām shēmām pieder Pamestība / Nestabilitāte (bailes, ka mīļotais cilvēks vai citi svarīgi cilvēki pametīs), Emocionālā deprivācija (sajūta, ka neviens cilvēku pa īstam nesaprot un viņa emocionālās vajadzības citi nespēs saprast) un Perfekcionisms (nepārtraukta spriedze un tiekšanās būt ideālam). Taču šīs ir tikai trīs no kopumā astoņpadsmit shēmām, kuras empīriski pierādījis ir Jangs un viņa kolēģi (2014).'
         },
         {
           heading: 'Kādu rezultātu sagaidīt no shēmu terapijas?',
