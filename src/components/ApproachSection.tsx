@@ -53,40 +53,26 @@ export const ApproachSection: React.FC = () => {
     }
   };
 
-  return (
-    <section
-      id="pieeja"
-      className="py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#FFFFFF] relative overflow-hidden"
-    >
-      <div className="max-w-7xl mx-auto">
-
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#8BA983] font-semibold mb-3">
-            <span>Metodes un izglītība</span>
+   {/* Section 1: Darba metodes */}
+      <section id="pieeja" className="py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#FFFFFF] relative overflow-hidden">
+        <div className="max-w-7xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#8BA983] font-semibold mb-3">
+              <span>Darba metodes</span>
+            </div>
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
+              Darba metodes
+            </h2>
+            <p className="text-base sm:text-lg text-[#2D373C] font-normal">
+              Konsultēšanas procesā katram individuāli tiek piemērotas atbilstošākās metodes, tās saskaņojot ar klienta vēlmēm un vajadzībām.
+            </p>
           </div>
 
-          <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
-            Darba metodes un izglītība
-          </h2>
-
-          <p className="text-base sm:text-lg text-[#2D373C] font-normal">
-            Konsultēšanas procesā katram individuāli tiek piemērotas atbilstošākās
-            metodes, to saskaņojot ar klienta vēlmēm un vajadzībām.
-          </p>
-        </div>
-
-        {/* Methods */}
-        <div>
-          <h3 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-8 text-center">
-            Darba metodes
-          </h3>
-
+          {/* Methods Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {methods.map((method, index) => {
               const certs = getCerts(method);
-              const isCenteredOnDesktop =
-                method.id === 'trauma-informed' || index === 3;
 
               return (
                 <motion.div
@@ -95,9 +81,7 @@ export const ApproachSection: React.FC = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className={`p-6 rounded-2xl bg-[#FAF8F2] border border-[#E8E1D8] hover:border-[#A8C3A1] transition-all duration-300 hover:shadow-xs group flex flex-col justify-between space-y-4 ${
-                    isCenteredOnDesktop ? 'lg:col-start-2' : ''
-                  }`}
+                  className="p-6 rounded-2xl bg-[#FAF8F2] border border-[#E8E1D8] hover:border-[#A8C3A1] transition-all duration-300 hover:shadow-xs group flex flex-col justify-between space-y-4"
                 >
                   <div>
                     <div className="flex items-center justify-between mb-4">
@@ -112,45 +96,48 @@ export const ApproachSection: React.FC = () => {
                       )}
                     </div>
 
-                    <h4 className="font-serif text-xl font-medium text-[#3E4950] mb-2">
+                    <h3 className="font-serif text-xl font-medium text-[#3E4950] mb-2">
                       {method.title}
-                    </h4>
+                    </h3>
 
-                    <p className="text-xs font-semibold text-[#8BA983] mb-3">
-                      {method.shortDesc}
-                    </p>
+                    {method.shortDesc && (
+                      <p className="text-xs font-semibold text-[#8BA983] mb-3">
+                        {method.shortDesc}
+                      </p>
+                    )}
 
                     <div className="text-sm text-[#2D373C] leading-relaxed whitespace-pre-line space-y-2 font-normal">
                       {renderFormattedText(method.description)}
                     </div>
                   </div>
 
-                  {/* Method training / certificate information */}
+                  {/* Certificate / Training Details */}
                   {certs.length > 0 && (
                     <div className="pt-3 border-t border-[#E8E1D8]/80 space-y-2">
-                      {certs.map((cert, cIdx) => (
-                        <div key={cIdx} className="text-xs text-[#3E4950]">
-                          {cert.title && (
-                            <p className="font-medium text-[#3E4950] leading-snug">
-                              {cert.title}
-                            </p>
-                          )}
-
-                          <div className="text-[#2D373C]">
-                            {cert.number && (
-                              <span className="font-mono text-[11px]">
-                                {cert.number}
-                              </span>
-                            )}
-
-                            {cert.number && cert.year && <span> • </span>}
-
-                            {cert.year && (
-                              <span>{cert.year}. gads</span>
-                            )}
+                      <div className="space-y-2">
+                        {certs.map((cert, cIdx) => (
+                          <div
+                            key={cIdx}
+                            className="bg-[#FFFFFF] p-3 rounded-xl border border-[#E8E1D8] flex items-start justify-between gap-2 shadow-2xs"
+                          >
+                            <div className="flex items-start gap-2.5 min-w-0">
+                              <Award className="w-4 h-4 text-[#8BA983] shrink-0 mt-0.5" />
+                              <div className="text-xs text-[#3E4950] space-y-0.5">
+                                {cert.title && (
+                                  <p className="font-medium text-[#3E4950] leading-snug">{cert.title}</p>
+                                )}
+                                <div className="flex flex-wrap items-center gap-x-2 text-[#2D373C]">
+                                  {cert.number && (
+                                    <span className="font-mono text-[11px]">{cert.number}</span>
+                                  )}
+                                  {cert.number && cert.year && <span>•</span>}
+                                  {cert.year && <span>{cert.year}. gads</span>}
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      ))}
+                        ))}
+                      </div>
                     </div>
                   )}
                 </motion.div>
@@ -158,32 +145,37 @@ export const ApproachSection: React.FC = () => {
             })}
           </div>
         </div>
+      </section>
 
-        {/* Education */}
-        <div className="mt-20 lg:mt-28">
-          <h3 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-10 text-center">
+      {/* Section 2: Izglītība */}
+      <section id="izglitiba" className="py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-[#FAF8F2] border-t border-[#E8E1D8] relative overflow-hidden">
+        <div className="max-w-3xl mx-auto text-center">
+          {/* Section Header */}
+          <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#8BA983] font-semibold mb-3">
+            <span>Izglītība</span>
+          </div>
+          <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-6">
             Izglītība
-          </h3>
+          </h2>
 
-          <div className="max-w-3xl mx-auto space-y-6">
-            {EDUCATION.map((education, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 15 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                className="text-center"
-              >
-                <p className="text-base sm:text-lg text-[#3E4950] font-medium leading-relaxed">
-                  {education.title} ({education.years})
+          {/* Simple paragraphs for education items */}
+          <div className="space-y-2 sm:space-y-3">
+            {education.map((item, idx) => {
+              const title = item.title || item.degree;
+              const inst = item.institution ? `, ${item.institution}` : '';
+              const time = item.period || item.year ? ` (${item.period || item.year})` : '';
+              return (
+                <p
+                  key={item.id || idx}
+                  className="text-base sm:text-lg text-[#2D373C] leading-relaxed font-normal"
+                >
+                  {title}{inst}{time}
                 </p>
-              </motion.div>
-            ))}
+              );
+            })}
           </div>
         </div>
-
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
