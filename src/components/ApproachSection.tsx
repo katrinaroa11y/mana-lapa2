@@ -1,36 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'motion/react';
-import { APPROACH_METHODS } from '../data/practiceData';
+import { APPROACH_METHODS, EDUCATION } from '../data/practiceData';
 import { ApproachMethod, CertificateInfo } from '../types';
-import { Brain, Layers, Compass, ShieldCheck, Lock, Heart } from 'lucide-react';
+import { Brain, Layers, Compass, Award } from 'lucide-react';
 import { renderFormattedText } from '../utils/formatText';
 
-const METHODS_STORAGE_KEY = 'katrina_approach_methods_v6';
-
-const EDUCATION = [
-  {
-    title: 'Maģistra grāds psiholoģijā, Bonnas Universitāte',
-    years: '2020–2023',
-  },
-  {
-    title: 'Bakalaura grāds psiholoģijā, Latvijas Universitāte',
-    years: '2017–2020',
-  },
-];
-
 export const ApproachSection: React.FC = () => {
-  const [methods] = useState<ApproachMethod[]>(APPROACH_METHODS);
+  const methods = APPROACH_METHODS;
+  const education = EDUCATION;
 
   const getCerts = (method: ApproachMethod): CertificateInfo[] => {
     if (method.certificates && method.certificates.length > 0) {
       return method.certificates;
     }
-    if (
-      method.certificate &&
-      (method.certificate.title ||
-        method.certificate.number ||
-        method.certificate.year)
-    ) {
+    if (method.certificate && (method.certificate.title || method.certificate.number || method.certificate.year)) {
       return [method.certificate];
     }
     return [];
@@ -44,16 +27,14 @@ export const ApproachSection: React.FC = () => {
         return <Layers className="w-6 h-6 text-[#8BA983]" />;
       case 'Compass':
         return <Compass className="w-6 h-6 text-[#8BA983]" />;
-      case 'ShieldCheck':
-        return <ShieldCheck className="w-6 h-6 text-[#8BA983]" />;
-      case 'Lock':
-        return <Lock className="w-6 h-6 text-[#8BA983]" />;
       default:
-        return <Heart className="w-6 h-6 text-[#8BA983]" />;
+        return <Brain className="w-6 h-6 text-[#8BA983]" />;
     }
   };
 
-   {/* Section 1: Darba metodes */}
+  return (
+    <>
+      {/* Section 1: Darba metodes */}
       <section id="pieeja" className="py-20 lg:py-28 px-4 sm:px-6 lg:px-8 bg-[#FFFFFF] relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
