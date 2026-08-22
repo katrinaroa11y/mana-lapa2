@@ -38,7 +38,7 @@ export const TopicsSection: React.FC = () => {
             <span>Kādos jautājumos varu palīdzēt</span>
           </div>
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
-            Tēmas, ar kurām strādāju
+            Tēmas
           </h2>
           <p className="text-base text-[#5E6A71]">
             Katrs cilvēks un viņa pieredze ir unikāla. Šeit ir apkopotas visbiežākās tēmas un izaicinājumi, kuros sniedzu atbalstu:
