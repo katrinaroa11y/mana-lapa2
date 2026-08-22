@@ -34,7 +34,7 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: 'traumas-terapija-emdr',
-    title: 'EMDR terapija',
+    title: 'EMDR',
     subtitle: 'Uz pierādījumiem balstīta metode grūtu un traumatisku pieredžu apstrādei',
     tag: 'Tiešsaistē',
     duration: '55 minūtes',
