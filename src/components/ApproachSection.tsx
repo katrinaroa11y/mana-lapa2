@@ -40,10 +40,10 @@ export const ApproachSection: React.FC = () => {
           {/* Section Header */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center text-xs uppercase tracking-widest text-[#8BA983] font-semibold mb-3">
-              <span>Darba metodes</span>
+              <span>Metodes un izglītība</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
-              Darba metodes
+              Metodes un izglītība
             </h2>
             <p className="text-base sm:text-lg text-[#2D373C] font-normal">
               Konsultēšanas procesā katram individuāli tiek piemērotas atbilstošākās metodes, tās saskaņojot ar klienta vēlmēm un vajadzībām.
