@@ -43,7 +43,7 @@ export const ApproachSection: React.FC = () => {
               <span>Metodes un izglītība</span>
             </div>
             <h2 className="font-serif text-3xl sm:text-4xl text-[#3E4950] font-normal leading-tight mb-4">
-              Metodes un izglītība
+              Metodes
             </h2>
             <p className="text-base sm:text-lg text-[#2D373C] font-normal">
               Konsultēšanas procesā katram individuāli tiek piemērotas atbilstošākās metodes, tās saskaņojot ar klienta vēlmēm un vajadzībām.
