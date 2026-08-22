@@ -41,7 +41,7 @@ export const TopicsSection: React.FC = () => {
             Tēmas
           </h2>
           <p className="text-base text-[#5E6A71]">
-            Katrs cilvēks un viņa pieredze ir unikāla. Šeit ir apkopotas visbiežākās tēmas un izaicinājumi, kuros sniedzu atbalstu:
+            Katrs cilvēks un viņa pieredze ir unikāla. Šeit ir apkopotas visbiežākās tēmas, grūtības un izaicinājumi, kuros sniedzu atbalstu:
           </p>
         </div>
 
